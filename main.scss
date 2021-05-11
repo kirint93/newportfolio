@@ -69,7 +69,7 @@ $Tertiary-color: #191919;
   h2 {
     text-align: center;
     color: $Tertiary-color;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 5%;
     margin-bottom: 2%;
     padding-left: 0;
@@ -128,7 +128,7 @@ $Tertiary-color: #191919;
 
     margin-top: 0;
     margin-bottom: 0%;
-    height: 200vh;
+    height: 210vh;
     width: 100%;
     overflow: hidden;
   }
@@ -140,11 +140,12 @@ $Tertiary-color: #191919;
   }
   .about-me {
     text-align: center;
+    font-weight: bold;
     position: relative;
     margin-left: 50px;
     margin-right: 50px;
-
     margin-bottom: 80px;
+   background-color: whitesmoke;
 
     li {
       margin: 10px;
@@ -165,6 +166,7 @@ $Tertiary-color: #191919;
     h3 {
       color: $primary-color;
       margin-bottom: 2%;
+      font-size: 25px;
     }
 
     .icon {
@@ -172,21 +174,24 @@ $Tertiary-color: #191919;
       flex-direction: row;
       justify-content: space-evenly;
       flex-wrap: wrap;
+      font-weight: bold;
     }
 
     .soft-skills {
       position: relative;
+      font-weight: bold;
       color: $Tertiary-color;
       padding-left: 10px;
       padding-right: 10px;
-      margin: 0px 60px 0 60px;
+      margin: 20px 60px 0 60px;
       font-size: 20px;
+      background-color: whitesmoke;
 
       margin-bottom: 70px;
       h3 {
         padding-top: 2%;
         color: $primary-color;
-        font-size: 20px;
+        font-size: 25px;
 
         .ul {
           color: $Tertiary-color;
@@ -323,8 +328,11 @@ $Tertiary-color: #191919;
     margin-top: 40px;
   }
   .text {
-    color: black;
+    background-color: whitesmoke;
     text-align: center;
+    display: inline-flex;
+    font-weight: bold;
+    margin-left: 400px;
     margin-bottom: 1%;
   }
   .contact-icons-container {
