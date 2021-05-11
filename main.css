@@ -1,0 +1,659 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #010101d7;
+  font-size: 18px;
+  font-family: "Crimson Text", serif;
+  color: #191919;
+  line-height: 40px;
+  scroll-behavior: smooth;
+}
+
+.portfolio {
+  height: 220vh;
+  width: 100%;
+}
+
+.portfolio nav {
+  width: 100%;
+  height: 30%;
+  margin: 0% 0 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff4500;
+  padding: 0px;
+  border: none;
+}
+
+.portfolio nav img {
+  height: 30%;
+  width: 17%;
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+}
+
+.portfolio nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.portfolio h1 {
+  text-align: center;
+  text-overflow: o;
+  color: white;
+  display: inline-block;
+  font-size: 48px;
+  font-family: "Poppins";
+  letter-spacing: 8px;
+  line-height: 70px;
+  margin-bottom: 0%;
+}
+
+.portfolio h1::first-letter {
+  font-size: 71px;
+  font-weight: bold;
+  color: #800080;
+}
+
+.portfolio h2 {
+  text-align: center;
+  color: #191919;
+  font-size: 45px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  padding-left: 0;
+  line-break: 0;
+}
+
+.portfolio h3 {
+  text-align: center;
+  color: #ff4500;
+}
+
+.portfolio h6 {
+  color: white;
+  margin-top: 0%;
+  line-height: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.portfolio .home {
+  background-image: url(./images/dark.png);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 85.6vh;
+  padding-bottom: 0px;
+  overflow: hidden;
+}
+
+.portfolio .home .intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 88.6vh;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.portfolio .home .intro .contact {
+  border: solid 2px white;
+  border-radius: 9px;
+  background-color: #000000;
+  color: white;
+  font-size: 23px;
+  height: 10vh;
+  width: 40%;
+  margin: 15px 90px;
+}
+
+.portfolio .home .intro .span h3 {
+  font-size: 80px;
+}
+
+.portfolio .about {
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0%;
+  height: 210vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio .me {
+  margin-left: 440px;
+  height: 20%;
+  width: 30%;
+  border-radius: 20%;
+}
+
+.portfolio .about-me {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 80px;
+  background-color: whitesmoke;
+}
+
+.portfolio .about-me li {
+  margin: 10px;
+  color: #191919;
+  font-size: 19px;
+  margin-left: 0px;
+  list-style: none;
+  padding: 0px;
+}
+
+.portfolio .skills {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #191919;
+  margin-bottom: 0%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.portfolio .skills h3 {
+  color: #ff4500;
+  margin-bottom: 2%;
+  font-size: 25px;
+}
+
+.portfolio .skills .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.portfolio .skills .soft-skills {
+  position: relative;
+  font-weight: bold;
+  color: #191919;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px 60px 0 60px;
+  font-size: 20px;
+  background-color: whitesmoke;
+  margin-bottom: 70px;
+}
+
+.portfolio .skills .soft-skills h3 {
+  padding-top: 2%;
+  color: #ff4500;
+  font-size: 25px;
+}
+
+.portfolio .skills .soft-skills h3 .ul {
+  color: #191919;
+}
+
+.portfolio .projects {
+  background-color: white;
+  height: 390vh;
+  background-size: 100% 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.portfolio .project-container {
+  padding-bottom: 1%;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: auto;
+}
+
+.portfolio .card {
+  border: 6px solid #ff4500;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 1px;
+}
+
+.portfolio .card-body {
+  width: 100%;
+  height: 120%;
+  background-color: #191919;
+}
+
+.portfolio .card-body .card-title {
+  font-size: 30px;
+  color: #ff4500;
+  margin-left: 20%;
+  font-family: bold;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.portfolio .card-body .project-pic1 {
+  width: 80%;
+  height: 190px;
+  margin-left: 8%;
+  padding-top: 4%;
+}
+
+.portfolio .card-body .project-pic2 {
+  width: 80%;
+  height: 200px;
+  margin-left: 8%;
+  padding-top: 4%;
+}
+
+.portfolio .card-body .project-pic3 {
+  width: 80%;
+  height: 210px;
+  margin-left: 8%;
+  padding-top: 4%;
+}
+
+.portfolio .card-body .project-pic4 {
+  height: 200px;
+  padding-top: 4%;
+  width: 100%;
+}
+
+.portfolio .card-body .project-pic5 {
+  padding-top: 4%;
+  width: 100%;
+  height: 200px;
+}
+
+.portfolio .card-body .project-pic6 {
+  padding-top: 4%;
+  width: 100%;
+  height: 200px;
+}
+
+.portfolio .card-body .card-description {
+  margin-left: 22%;
+  font-weight: bold;
+  color: #191919;
+}
+
+.portfolio .card-body .info {
+  color: white;
+  height: 310px;
+}
+
+.portfolio .card-body .info2 {
+  color: white;
+  height: 300px;
+}
+
+.portfolio .card-body .info3 {
+  color: white;
+  height: 290px;
+}
+
+.portfolio .card-body .info3:hover {
+  opacity: 1;
+}
+
+.portfolio .card-body .info4 {
+  color: white;
+  height: 160px;
+}
+
+.portfolio .card-body .info5 {
+  color: white;
+  height: 160px;
+}
+
+.portfolio .card-body .info6 {
+  color: white;
+  height: 160px;
+}
+
+.portfolio .card-body .card-link {
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 3px 3px 3px;
+  background-color: #078907;
+  color: #000;
+  font-size: 20px;
+  margin-left: 12%;
+}
+
+.portfolio .contact {
+  margin-top: 40px;
+}
+
+.portfolio .text {
+  background-color: whitesmoke;
+  text-align: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-weight: bold;
+  margin-left: 400px;
+  margin-bottom: 1%;
+}
+
+.portfolio .contact-icons-container {
+  margin-top: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 14%;
+  height: 58%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 540px;
+}
+
+.portfolio .contact-icons-container a {
+  margin: 20px 20px 1px;
+  margin-top: 1px;
+}
+
+.contact-form {
+  background-color: grey;
+  width: 40%;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  margin-left: 390px;
+  padding: 3px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-form .input-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 1px;
+  width: 100%;
+  padding: 20px;
+}
+
+.contact-form .input-fields,
+.contact-form .content {
+  width: 100%;
+}
+
+.contact-form .input-fields input,
+.contact-form .input-fields textarea,
+.contact-form .content input,
+.contact-form .content textarea {
+  margin: 10px 0;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+
+.contact-form .input-fields input::-webkit-input-placeholder,
+.contact-form .input-fields textarea::-webkit-input-placeholder,
+.contact-form .content input::-webkit-input-placeholder,
+.contact-form .content textarea::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.contact-form .input-fields input:-ms-input-placeholder,
+.contact-form .input-fields textarea:-ms-input-placeholder,
+.contact-form .content input:-ms-input-placeholder,
+.contact-form .content textarea:-ms-input-placeholder {
+  color: inherit;
+}
+
+.contact-form .input-fields input::-ms-input-placeholder,
+.contact-form .input-fields textarea::-ms-input-placeholder,
+.contact-form .content input::-ms-input-placeholder,
+.contact-form .content textarea::-ms-input-placeholder {
+  color: inherit;
+}
+
+.contact-form .input-fields input::placeholder,
+.contact-form .input-fields textarea::placeholder,
+.contact-form .content input::placeholder,
+.contact-form .content textarea::placeholder {
+  color: inherit;
+}
+
+.contact-form .input-fields input :required,
+.contact-form .input-fields textarea :required,
+.contact-form .content input :required,
+.contact-form .content textarea :required {
+  border-color: #f5f5f5;
+}
+
+.contact-form .input-fields textarea,
+.contact-form .content textarea {
+  height: 210px;
+}
+
+.contact-form .input-fields .button,
+.contact-form .content .button {
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 89px;
+  background-color: #ebe8e8;
+  border: 2px solid #ebe8e8;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+}
+
+.contact-form .input-fields .button:hover,
+.contact-form .content .button:hover {
+  border: 2px solid white;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  margin: 0% 0 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff4500;
+  padding: 0px;
+  border: none;
+}
+
+footer p {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  left: 0;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .portfolio {
+    height: 800px;
+  }
+  .portfolio nav img {
+    display: none;
+  }
+  .portfolio nav a {
+    width: 100%;
+    font-size: 14px;
+  }
+  .portfolio .button {
+    width: 20%;
+  }
+  .portfolio .about {
+    height: 300vh;
+  }
+  .portfolio .about .me {
+    width: 400px;
+    margin-left: 20px;
+  }
+  .portfolio .project-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .portfolio .contact-icons-container {
+    margin-top: 3px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 58%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 2px;
+  }
+  .portfolio .contact-icons-container a {
+    margin: 20px 20px 1px;
+    margin-top: 1px;
+  }
+  .portfolio .contact-form {
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 0px;
+    padding: 4px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio .contact-form .input-fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 1px;
+    width: 100%;
+    padding: 20px;
+  }
+  .portfolio .contact-form .input-fields,
+  .portfolio .contact-form .content {
+    width: 100%;
+  }
+  .portfolio .contact-form .input-fields input,
+  .portfolio .contact-form .input-fields textarea,
+  .portfolio .contact-form .content input,
+  .portfolio .contact-form .content textarea {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .portfolio .contact-form .input-fields textarea,
+  .portfolio .contact-form .content textarea {
+    height: 210px;
+  }
+  .portfolio .contact-form .input-fields .button,
+  .portfolio .contact-form .content .button {
+    width: 60%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 30px;
+  }
+  .portfolio .contact-form .input-fields footer,
+  .portfolio .contact-form .content footer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 1440px) {
+  .headers {
+    margin-left: 15%;
+  }
+  .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 2400px) {
+  .icon {
+    margin-left: 1200px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
