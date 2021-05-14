@@ -12,13 +12,13 @@
 }
 
 .portfolio {
-  height: 220vh;
+  height: 320vh;
   width: 100%;
 }
 
 .portfolio nav {
   width: 100%;
-  height: 30%;
+  height: 27%;
   margin: 0% 0 0%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +35,7 @@
 }
 
 .portfolio nav img {
-  height: 30%;
+  height: 50px;
   width: 17%;
   position: absolute;
   left: 0;
@@ -141,7 +141,7 @@
   background-color: white;
   margin-top: 0;
   margin-bottom: 0%;
-  height: 210vh;
+  height: 230vh;
   width: 100%;
   overflow: hidden;
 }
@@ -210,10 +210,9 @@
   color: #191919;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 20px 60px 0 60px;
+  margin: 10px 50px 0 60px;
   font-size: 20px;
   background-color: whitesmoke;
-  margin-bottom: 70px;
 }
 
 .portfolio .skills .soft-skills h3 {
@@ -224,6 +223,7 @@
 
 .portfolio .skills .soft-skills h3 .ul {
   color: #191919;
+  margin-bottom: 400px;
 }
 
 .portfolio .projects {
@@ -311,7 +311,7 @@
 .portfolio .card-body .card-description {
   margin-left: 22%;
   font-weight: bold;
-  color: #191919;
+  color: white;
 }
 
 .portfolio .card-body .info {
@@ -399,7 +399,7 @@
 .contact-form {
   background-color: grey;
   width: 40%;
-  margin-bottom: 2%;
+  margin-bottom: 20%;
   margin-top: 4%;
   margin-left: 390px;
   padding: 3px;
@@ -518,6 +518,7 @@ footer {
           align-items: center;
   background-color: #ff4500;
   padding: 0px;
+  margin-bottom: 200px;
   border: none;
 }
 
