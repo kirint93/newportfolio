@@ -18,7 +18,7 @@
 
 .portfolio nav {
   width: 100%;
-  height: 30%;
+  height: 40%;
   margin: 0% 0 0%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +35,9 @@
 }
 
 .portfolio nav img {
-  height: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 17%;
   position: absolute;
   left: 0;
@@ -552,14 +554,43 @@ footer p {
     margin-left: 2px;
   }
   .portfolio .about {
-    height: 300vh;
+    height: 470vh;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .portfolio .about .me {
     width: 400px;
     margin-left: 20px;
   }
+  .portfolio .about .about-me {
+    text-align: center;
+    width: 200px;
+  }
+  .portfolio .about .skills {
+    padding-left: 50px;
+    padding-right: 3px;
+    color: #191919;
+    margin-bottom: 0%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .portfolio .about .skills .icon {
+    width: 230px;
+  }
+  .portfolio .about .skills .soft-skills {
+    position: relative;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px 60px 0 60px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    margin-bottom: 70px;
+  }
   .portfolio .projects {
-    height: 200px;
+    height: 220px;
   }
   .portfolio .project-container {
     display: -ms-grid;
@@ -567,8 +598,37 @@ footer p {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .portfolio .project-container .info {
+    width: 220px;
+    height: 80%;
+  }
+  .portfolio .project-container .info2 {
+    width: 220px;
+    height: 80%;
+  }
+  .portfolio .project-container .info3 {
+    width: 220px;
+    height: 80%;
+  }
+  .portfolio .project-container .info4 {
+    width: 220px;
+    height: 160px;
+  }
+  .portfolio .project-container .info5 {
+    height: 160px;
+    width: 220px;
+  }
+  .portfolio .project-container .info6 {
+    width: 220px;
+    height: 160px;
+  }
+  .portfolio .project-container .card-link {
+    margin-left: 4%;
+  }
   .portfolio .contact {
     margin-top: 40px;
+    width: 60%;
+    margin-left: 0;
   }
   .portfolio .text {
     width: -webkit-fit-content;
@@ -576,14 +636,14 @@ footer p {
     width: fit-content;
     margin-left: 10px;
     margin-bottom: 1%;
+    width: 200px;
   }
   .portfolio .contact-icons-container {
-    width: 14%;
     height: 1%;
-    margin-left: 140px;
+    margin-left: 100px;
   }
   .portfolio .contact-icons-container a {
-    margin: 20px 20px 1px;
+    margin-left: 0;
     margin-top: 1px;
   }
   .contact-form {
