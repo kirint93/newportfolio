@@ -14,12 +14,12 @@ $Tertiary-color: #191919;
   scroll-behavior: smooth;
 }
 .portfolio {
-  height: 320vh;
+  height: 220vh;
   width: 100%;
 
   nav {
     width: 100%;
-    height: 27%;
+    height: 30%;
     margin: 0% 0 0%;
     display: flex;
     justify-content: flex-end;
@@ -29,14 +29,13 @@ $Tertiary-color: #191919;
     border: none;
 
     img {
-      height: 50px;
+      height: 30%;
       width: 17%;
       position: absolute;
       left: 0;
       margin-left: 20px;
     }
-   
-    
+
     a {
       display: flex;
       margin: 1%;
@@ -129,7 +128,7 @@ $Tertiary-color: #191919;
 
     margin-top: 0;
     margin-bottom: 0%;
-    height: 230vh;
+    height: 210vh;
     width: 100%;
     overflow: hidden;
   }
@@ -183,13 +182,12 @@ $Tertiary-color: #191919;
       font-weight: bold;
       color: $Tertiary-color;
       padding-left: 10px;
-      
       padding-right: 10px;
-      margin: 10px 50px 0 60px;
+      margin: 20px 60px 0 60px;
       font-size: 20px;
       background-color: whitesmoke;
 
-      
+      margin-bottom: 70px;
       h3 {
         padding-top: 2%;
         color: $primary-color;
@@ -197,7 +195,6 @@ $Tertiary-color: #191919;
 
         .ul {
           color: $Tertiary-color;
-          margin-bottom: 400px;
         }
       }
     }
@@ -283,7 +280,7 @@ $Tertiary-color: #191919;
     .card-description {
       margin-left: 22%;
       font-weight: bold;
-      color: $color;
+      color: $Tertiary-color;
     }
     .info {
       color: $color;
@@ -358,7 +355,7 @@ $Tertiary-color: #191919;
 .contact-form {
   background-color: grey;
   width: 40%;
-  margin-bottom: 20%;
+  margin-bottom: 2%;
   margin-top: 4%;
   margin-left: 390px;
 
@@ -427,7 +424,6 @@ footer {
   align-items: center;
   background-color: $primary-color;
   padding: 0px;
-  margin-bottom:  200px;
   border: none;
 
   p {
@@ -441,7 +437,8 @@ footer {
 
 @media only screen and (max-width: 420px) {
   .portfolio {
-    height: 800px;
+    height: 660px;
+    width: 100%;
     nav {
       img {
         display: none;
@@ -452,9 +449,17 @@ footer {
         font-size: 14px;
       }
     }
-    .button {
-      width: 20%;
+
+    .home {
+      height: 50vh;
+    
+    
+      h6 {
+        margin-left: 2px;
+      }
     }
+      
+    
 
     .about {
       height: 300vh;
@@ -463,31 +468,41 @@ footer {
         margin-left: 20px;
       }
     }
-
+   .projects{
+    height: 200px;
+   }
+   
     .project-container {
       display: grid;
 
       grid-template-columns: 1fr;
     }
-
+    .contact {
+      margin-top: 40px;
+    }
+    .text {
+      width: fit-content;
+      margin-left: 10px;
+      margin-bottom: 1%;
+    }
     .contact-icons-container {
-      margin-top: 3px;
-      justify-content: center;
-      width: 100%;
-      height: 58%;
-      display: flex;
-      flex-direction: row;
-      margin-left: 2px;
-
+      
+      width: 14%;
+      height: 1%;
+      
+      margin-left: 140px;
+  
       a {
         margin: 20px 20px 1px;
         margin-top: 1px;
       }
     }
+  }
     .contact-form {
       width: 100%;
       margin-top: 4%;
       margin-left: 0px;
+      margin-bottom: 20px;
       padding: 4px;
       border-radius: 5px;
       display: flex;
@@ -520,13 +535,15 @@ footer {
           align-items: center;
           margin-left: 30px;
         }
-
-        footer {
+      }
+   }
+    
+      footer {
           display: none;
         }
       }
-    }
-  }
+    
+  
 
   @media only screen and (min-width: 1440px) {
     .headers {
@@ -544,4 +561,4 @@ footer {
       margin-left: 1200px;
     }
   }
-}
+
