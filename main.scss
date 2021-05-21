@@ -14,7 +14,7 @@ $Tertiary-color: #191919;
   scroll-behavior: smooth;
 }
 .portfolio {
-  height: 220vh;
+  height: 20vh;
   width: 100%;
 
   nav {
@@ -128,10 +128,10 @@ $Tertiary-color: #191919;
 
     margin-top: 0;
     margin-bottom: 0%;
-    height: 210vh;
+    height: 240vh;
     width: 100%;
     overflow: hidden;
-  }
+
   .me {
     margin-left: 440px;
     height: 20%;
@@ -183,11 +183,11 @@ $Tertiary-color: #191919;
       color: $Tertiary-color;
       padding-left: 10px;
       padding-right: 10px;
-      margin: 20px 60px 0 60px;
+      margin: 20px 60px 60px;
       font-size: 20px;
       background-color: whitesmoke;
 
-      margin-bottom: 70px;
+      
       h3 {
         padding-top: 2%;
         color: $primary-color;
@@ -199,8 +199,10 @@ $Tertiary-color: #191919;
       }
     }
   }
-  .projects {
+   } .projects {
     background-color: $color;
+  
+    
     height: 390vh;
     background-size: 100% 100%;
     padding-top: 0%;
