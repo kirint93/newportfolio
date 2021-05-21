@@ -14,7 +14,7 @@ $Tertiary-color: #191919;
   scroll-behavior: smooth;
 }
 .portfolio {
-  height: 20vh;
+  height: 420vh;
   width: 100%;
 
   nav {
@@ -417,17 +417,16 @@ $Tertiary-color: #191919;
   }
 }
 
-footer {
-  width: 100%;
-  height: 100%;
-  margin: 0% 0 0%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: $primary-color;
-  padding: 0px;
-  border: none;
-
+  footer {
+    width: 100%;
+    height: 40%;
+    margin: 0% 0 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: $primary-color;
+    padding-bottom: 0px;
+    border: none;
   p {
     height: fit-content;
     width: fit-content;
@@ -435,7 +434,7 @@ footer {
     left: 0;
     margin-left: 20px;
   }
-}
+ }
 
 @media only screen and (max-width: 420px) {
   .portfolio {
@@ -625,19 +624,41 @@ footer {
   
 
   @media only screen and (min-width: 1440px) {
+
+    .portfolio{
+      height: 520vh;
+   
     .headers {
       margin-left: 15%;
     }
+
+    .about{
+    height: 300vh;
+    
     .icon {
       display: flex;
       flex-direction: row;
-      margin-left: 15%;
+      margin-left: 1%;
     }
+    }
+    .contact-form{
+     margin-bottom: 6px;
+   }
   }
+  footer{
+    margin-bottom: 2%;
+  }
+ }
 
   @media screen and (min-width: 2400px) {
-    .icon {
-      margin-left: 1200px;
-    }
+    
+      
+      .icon {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1%;
+        width: fit-content;
+      }
+      
   }
 

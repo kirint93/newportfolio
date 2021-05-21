@@ -12,7 +12,7 @@
 }
 
 .portfolio {
-  height: 20vh;
+  height: 420vh;
   width: 100%;
 }
 
@@ -506,7 +506,7 @@
 
 footer {
   width: 100%;
-  height: 100%;
+  height: 40%;
   margin: 0% 0 0%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,7 +518,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ff4500;
-  padding: 0px;
+  padding-bottom: 0px;
   border: none;
 }
 
@@ -701,9 +701,34 @@ footer p {
 }
 
 @media only screen and (min-width: 1440px) {
-  .headers {
+  .portfolio {
+    height: 520vh;
+  }
+  .portfolio .headers {
     margin-left: 15%;
   }
+  .portfolio .about {
+    height: 300vh;
+  }
+  .portfolio .about .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 1%;
+  }
+  .portfolio .contact-form {
+    margin-bottom: 6px;
+  }
+  footer {
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (min-width: 2400px) {
   .icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -712,13 +737,10 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-left: 15%;
-  }
-}
-
-@media screen and (min-width: 2400px) {
-  .icon {
-    margin-left: 1200px;
+    margin-left: 1%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 /*# sourceMappingURL=main.css.map */
