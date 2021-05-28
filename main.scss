@@ -1,5 +1,5 @@
 $color: white;
-$primary-color: #ff4500;
+$primary-color: #d2691e ;
 $Secondary-color: #ebe8e8;
 $Tertiary-color: #191919;
 * {
@@ -19,17 +19,17 @@ $Tertiary-color: #191919;
 
   nav {
     width: 100%;
-    height: 30%;
-    margin: 0% 0 0%;
+    height: 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: $primary-color;
-    padding: 0px;
-    border: none;
+    position: fixed;
+    color:transparent;
+    background-color:transparent;
+    background-color: #d2691e;
 
     img {
-      height: 30%;
+      height: fit-content;
       width: 17%;
       position: absolute;
       left: 0;
@@ -44,7 +44,7 @@ $Tertiary-color: #191919;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 25px;
-      color: $color;
+      color:$Secondary-color ;
     }
   }
 
@@ -99,13 +99,14 @@ $Tertiary-color: #191919;
     height: 85.6vh;
     padding-bottom: 0px;
     overflow: hidden;
+    margin-top: 0;
 
     .intro {
       display: flex;
       justify-content: center;
       height: 88.6vh;
       margin-left: 5%;
-      margin-top: 2%;
+      margin-top: 7%;
 
       .contact {
         border: solid 2px $color;
@@ -234,7 +235,7 @@ $Tertiary-color: #191919;
 
     .card-title {
       font-size: 30px;
-      color: $primary-color;
+      color: #ff4500;
       margin-left: 20%;
       font-family: bold;
       font-family: sans-serif;
