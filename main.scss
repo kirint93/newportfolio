@@ -1,5 +1,5 @@
 $color: white;
-$primary-color: #ff4500;
+$primary-color: #d2691e ;
 $Secondary-color: #ebe8e8;
 $Tertiary-color: #191919;
 * {
@@ -14,19 +14,19 @@ $Tertiary-color: #191919;
   scroll-behavior: smooth;
 }
 .portfolio {
-  height: 420vh;
+  height: 220vh;
   width: 100%;
 
   nav {
     width: 100%;
-    height: 40%;
-    margin: 0% 0 0%;
+    height: 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: $primary-color;
-    padding: 0px;
-    border: none;
+    position: fixed;
+    color:transparent;
+    background-color:transparent;
+    background-color: #d2691e;
 
     img {
       height: fit-content;
@@ -44,7 +44,7 @@ $Tertiary-color: #191919;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 25px;
-      color: $color;
+      color:$Secondary-color ;
     }
   }
 
@@ -99,13 +99,14 @@ $Tertiary-color: #191919;
     height: 85.6vh;
     padding-bottom: 0px;
     overflow: hidden;
+    margin-top: 0;
 
     .intro {
       display: flex;
       justify-content: center;
       height: 88.6vh;
       margin-left: 5%;
-      margin-top: 2%;
+      margin-top: 7%;
 
       .contact {
         border: solid 2px $color;
@@ -128,10 +129,10 @@ $Tertiary-color: #191919;
 
     margin-top: 0;
     margin-bottom: 0%;
-    height: 240vh;
+    height: 210vh;
     width: 100%;
     overflow: hidden;
-
+  }
   .me {
     margin-left: 440px;
     height: 20%;
@@ -183,11 +184,11 @@ $Tertiary-color: #191919;
       color: $Tertiary-color;
       padding-left: 10px;
       padding-right: 10px;
-      margin: 20px 60px 60px;
+      margin: 20px 60px 0 60px;
       font-size: 20px;
       background-color: whitesmoke;
 
-      
+      margin-bottom: 70px;
       h3 {
         padding-top: 2%;
         color: $primary-color;
@@ -199,10 +200,8 @@ $Tertiary-color: #191919;
       }
     }
   }
-   } .projects {
+  .projects {
     background-color: $color;
-  
-    
     height: 390vh;
     background-size: 100% 100%;
     padding-top: 0%;
@@ -236,7 +235,7 @@ $Tertiary-color: #191919;
 
     .card-title {
       font-size: 30px;
-      color: $primary-color;
+      color: #ff4500;
       margin-left: 20%;
       font-family: bold;
       font-family: sans-serif;
@@ -417,16 +416,17 @@ $Tertiary-color: #191919;
   }
 }
 
-  footer {
-    width: 100%;
-    height: 40%;
-    margin: 0% 0 0%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: $primary-color;
-    padding-bottom: 0px;
-    border: none;
+footer {
+  width: 100%;
+  height: 100%;
+  margin: 0% 0 0%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $primary-color;
+  padding: 0px;
+  border: none;
+
   p {
     height: fit-content;
     width: fit-content;
@@ -434,7 +434,7 @@ $Tertiary-color: #191919;
     left: 0;
     margin-left: 20px;
   }
- }
+}
 
 @media only screen and (max-width: 420px) {
   .portfolio {
@@ -463,116 +463,39 @@ $Tertiary-color: #191919;
     
 
     .about {
-      height: 470vh;
-      width: fit-content;
+      height: 300vh;
       .me {
         width: 400px;
         margin-left: 20px;
       }
-
-      .about-me {
-        text-align: center;
-      
-        
-        width: 200px;
-      
     }
-    .skills {
-      padding-left: 50px;
-      padding-right: 3px;
-      color: $Tertiary-color;
-      margin-bottom: 0%;
-      width: fit-content;
-  
-    
-  
-      .icon {
-        width: 230px;
-      }
-  
-      .soft-skills {
-        position: relative;
-        font-weight: bold;
-        
-        padding-left: 10px;
-        padding-right: 10px;
-        margin: 20px 60px 0 60px;
-        font-size: 20px;
-        background-color: whitesmoke;
-  
-        margin-bottom: 70px;
-  }
-}
-}
    .projects{
-    height: 220px;
+    height: 200px;
    }
    
     .project-container {
       display: grid;
 
       grid-template-columns: 1fr;
-     
-      .info {
-        width: 220px;
-        height: 80%;
-      }
-  
-      .info2 {
-        width: 220px;
-        height: 80%;
-      }
-      .info3 {
-        width: 220px;
-        height: 80%;
-  
-        
-      }
-  
-      .info4 {
-        width: 220px;
-        height: 160px;
-      }
-      .info5 {
-        
-        height: 160px;
-       width: 220px;
-      }
-      .info6 {
-        width: 220px;
-        height: 160px;
-      }
-      .card-link {
-        
-       
-        margin-left: 4%;
-      }
-    
-    
     }
     .contact {
       margin-top: 40px;
-      width: 60%;
-      margin-left: 0;
     }
     .text {
       width: fit-content;
       margin-left: 10px;
       margin-bottom: 1%;
-      width: 200px;
     }
     .contact-icons-container {
       
-      
+      width: 14%;
       height: 1%;
       
-      margin-left: 100px;
+      margin-left: 140px;
   
       a {
-        margin-left: 0;
-        
+        margin: 20px 20px 1px;
         margin-top: 1px;
-       
       }
     }
   }
@@ -624,41 +547,19 @@ $Tertiary-color: #191919;
   
 
   @media only screen and (min-width: 1440px) {
-
-    .portfolio{
-      height: 520vh;
-   
     .headers {
       margin-left: 15%;
     }
-
-    .about{
-    height: 300vh;
-    
     .icon {
       display: flex;
       flex-direction: row;
-      margin-left: 1%;
+      margin-left: 15%;
     }
-    }
-    .contact-form{
-     margin-bottom: 6px;
-   }
   }
-  footer{
-    margin-bottom: 2%;
-  }
- }
 
   @media screen and (min-width: 2400px) {
-    
-      
-      .icon {
-        display: flex;
-        flex-direction: row;
-        margin-left: 1%;
-        width: fit-content;
-      }
-      
+    .icon {
+      margin-left: 1200px;
+    }
   }
 
