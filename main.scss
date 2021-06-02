@@ -279,9 +279,11 @@ $Tertiary-color: #191919;
       height: 200px;
     }
     .card-description {
-      margin-left: 22%;
+      margin-left: 15%;
+      padding-bottom: 6%;
       font-weight: bold;
-      color: $Tertiary-color;
+      color: $Secondary-color;
+      font-size: 23px;
     }
     .info {
       color: $color;
@@ -303,7 +305,7 @@ $Tertiary-color: #191919;
 
     .info4 {
       color: $color;
-      height: 160px;
+      height: 200px;
     }
     .info5 {
       color: $color;
@@ -311,7 +313,7 @@ $Tertiary-color: #191919;
     }
     .info6 {
       color: $color;
-      height: 160px;
+      height: 200px;
     }
     .card-link {
       text-decoration: none;

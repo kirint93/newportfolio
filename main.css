@@ -312,9 +312,11 @@
 }
 
 .portfolio .card-body .card-description {
-  margin-left: 22%;
+  margin-left: 15%;
+  padding-bottom: 6%;
   font-weight: bold;
-  color: #191919;
+  color: #ebe8e8;
+  font-size: 23px;
 }
 
 .portfolio .card-body .info {
@@ -338,7 +340,7 @@
 
 .portfolio .card-body .info4 {
   color: white;
-  height: 160px;
+  height: 200px;
 }
 
 .portfolio .card-body .info5 {
@@ -348,7 +350,7 @@
 
 .portfolio .card-body .info6 {
   color: white;
-  height: 160px;
+  height: 200px;
 }
 
 .portfolio .card-body .card-link {
