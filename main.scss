@@ -1,5 +1,5 @@
 $color: white;
-$primary-color: #d2691e ;
+$primary-color: #010124;
 $Secondary-color: #ebe8e8;
 $Tertiary-color: #191919;
 * {
@@ -24,17 +24,18 @@ $Tertiary-color: #191919;
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    color:transparent;
-    background-color:transparent;
-    background-color: #d2691e;
+    color: transparent;
+    background-color: transparent;
+    background-color: $primary-color;
 
-    img {
-      height: fit-content;
-      width: 17%;
-      position: absolute;
-      left: 0;
-      margin-left: 20px;
-    }
+    // img {
+    //   height: fit-content;
+    //   width: 17%;
+    //   position: absolute;
+    //   left: 0;
+    //   margin-left: 20px;
+    //   text-decoration: white;
+    // }
 
     a {
       display: flex;
@@ -43,8 +44,8 @@ $Tertiary-color: #191919;
       text-decoration: none;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 25px;
-      color:$Secondary-color ;
+      font-size: 20px;
+      color: $Secondary-color;
     }
   }
 
@@ -129,7 +130,7 @@ $Tertiary-color: #191919;
 
     margin-top: 0;
     margin-bottom: 0%;
-    height: 210vh;
+    height: 240vh;
     width: 100%;
     overflow: hidden;
   }
@@ -146,7 +147,7 @@ $Tertiary-color: #191919;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 80px;
-   background-color: whitesmoke;
+    background-color: whitesmoke;
 
     li {
       margin: 10px;
@@ -220,7 +221,7 @@ $Tertiary-color: #191919;
   }
 
   .card {
-    border: 6px solid $primary-color;
+    border: 6px solid #ff4500;
     width: 100%;
     height: fit-content;
 
@@ -433,6 +434,10 @@ footer {
     color: $color;
     left: 0;
     margin-left: 20px;
+
+    #year {
+      color: $Secondary-color;
+    }
   }
 }
 
@@ -453,14 +458,11 @@ footer {
 
     .home {
       height: 50vh;
-    
-    
+
       h6 {
         margin-left: 2px;
       }
     }
-      
-    
 
     .about {
       height: 300vh;
@@ -469,10 +471,10 @@ footer {
         margin-left: 20px;
       }
     }
-   .projects{
-    height: 200px;
-   }
-   
+    .projects {
+      height: 200px;
+    }
+
     .project-container {
       display: grid;
 
@@ -487,79 +489,75 @@ footer {
       margin-bottom: 1%;
     }
     .contact-icons-container {
-      
       width: 14%;
       height: 1%;
-      
+
       margin-left: 140px;
-  
+
       a {
         margin: 20px 20px 1px;
         margin-top: 1px;
       }
     }
   }
-    .contact-form {
-      width: 100%;
-      margin-top: 4%;
-      margin-left: 0px;
-      margin-bottom: 20px;
-      padding: 4px;
-      border-radius: 5px;
+  .contact-form {
+    width: 100%;
+    margin-top: 4%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+    .input-fields {
       display: flex;
       flex-direction: column;
-
-      .input-fields {
-        display: flex;
-        flex-direction: column;
-        margin-right: 1px;
-        width: 100%;
-        padding: 20px;
-      }
-
-      .input-fields,
-      .content {
-        width: 100%;
-
-        input,
-        textarea {
-          margin: 10px 0;
-
-          width: 100%;
-        }
-
-        textarea {
-          height: 210px;
-        }
-        .button {
-          width: 60%;
-          align-items: center;
-          margin-left: 30px;
-        }
-      }
-   }
-    
-      footer {
-          display: none;
-        }
-      }
-    
-  
-
-  @media only screen and (min-width: 1440px) {
-    .headers {
-      margin-left: 15%;
+      margin-right: 1px;
+      width: 100%;
+      padding: 20px;
     }
-    .icon {
-      display: flex;
-      flex-direction: row;
-      margin-left: 15%;
+
+    .input-fields,
+    .content {
+      width: 100%;
+
+      input,
+      textarea {
+        margin: 10px 0;
+
+        width: 100%;
+      }
+
+      textarea {
+        height: 210px;
+      }
+      .button {
+        width: 60%;
+        align-items: center;
+        margin-left: 30px;
+      }
     }
   }
 
-  @media screen and (min-width: 2400px) {
-    .icon {
-      margin-left: 1200px;
-    }
+  footer {
+    display: none;
   }
+}
 
+@media only screen and (min-width: 1440px) {
+  .headers {
+    margin-left: 15%;
+  }
+  .icon {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .icon {
+    margin-left: 1200px;
+  }
+}

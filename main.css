@@ -31,17 +31,7 @@
   position: fixed;
   color: transparent;
   background-color: transparent;
-  background-color: #d2691e;
-}
-
-.portfolio nav img {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  width: 17%;
-  position: absolute;
-  left: 0;
-  margin-left: 20px;
+  background-color: #010124;
 }
 
 .portfolio nav a {
@@ -55,7 +45,7 @@
   text-decoration: none;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: #ebe8e8;
 }
 
@@ -89,7 +79,7 @@
 
 .portfolio h3 {
   text-align: center;
-  color: #d2691e;
+  color: #010124;
 }
 
 .portfolio h6 {
@@ -144,7 +134,7 @@
   background-color: white;
   margin-top: 0;
   margin-bottom: 0%;
-  height: 210vh;
+  height: 240vh;
   width: 100%;
   overflow: hidden;
 }
@@ -186,7 +176,7 @@
 }
 
 .portfolio .skills h3 {
-  color: #d2691e;
+  color: #010124;
   margin-bottom: 2%;
   font-size: 25px;
 }
@@ -221,7 +211,7 @@
 
 .portfolio .skills .soft-skills h3 {
   padding-top: 2%;
-  color: #d2691e;
+  color: #010124;
   font-size: 25px;
 }
 
@@ -249,7 +239,7 @@
 }
 
 .portfolio .card {
-  border: 6px solid #d2691e;
+  border: 6px solid #ff4500;
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -519,7 +509,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #d2691e;
+  background-color: #010124;
   padding: 0px;
   border: none;
 }
@@ -534,6 +524,10 @@ footer p {
   color: white;
   left: 0;
   margin-left: 20px;
+}
+
+footer p #year {
+  color: #ebe8e8;
 }
 
 @media only screen and (max-width: 420px) {
