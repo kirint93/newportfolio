@@ -231,7 +231,7 @@
 
 .portfolio .projects {
   background-color: white;
-  height: 390vh;
+  height: 490vh;
   background-size: 100% 100%;
   padding-top: 0%;
   padding-bottom: 0%;
@@ -312,9 +312,9 @@
 }
 
 .portfolio .card-body .card-description {
-  margin-left: 22%;
+  margin-left: 15%;
   font-weight: bold;
-  color: #191919;
+  color: #ebe8e8;
 }
 
 .portfolio .card-body .info {
