@@ -227,10 +227,12 @@ $Tertiary-color: #191919;
     margin-top: 0px;
   }
   .projects {
-    height: 550vh;
+    height: 850vh;
     background-size: 100% 100%;
     padding-top: 3%;
     padding-bottom: 2%;
+
+
 
     .project-container {
       padding-bottom: 1%;
@@ -350,6 +352,7 @@ $Tertiary-color: #191919;
       background: $Secondary-color;
     }
   }
+
   #contact {
     border-top: 5px solid white;
     margin-top: 40px;
