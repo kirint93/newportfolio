@@ -19,7 +19,7 @@ $Tertiary-color: #191919;
 
   nav {
     width: 100%;
-    height: 10%;
+    height: 12%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -177,7 +177,22 @@ $Tertiary-color: #191919;
       flex-wrap: wrap;
       font-weight: bold;
     }
+    h4 {
+      color: $primary-color;
+      margin-bottom: 2%;
+      margin-top: 0%;
+      margin-left: 450px;
 
+      font-size: 25px;
+    }
+    .icon2 {
+      display: flex;
+      flex-direction: row;
+      margin-left: 450px;
+      gap: 30px;
+      flex-wrap: wrap;
+      font-weight: bold;
+    }
     .soft-skills {
       position: relative;
       font-weight: bold;
@@ -202,7 +217,7 @@ $Tertiary-color: #191919;
   }
   .projects {
     background-color: $color;
-    height: 490vh;
+    height: 590vh;
     background-size: 100% 100%;
     padding-top: 0%;
     padding-bottom: 0%;
@@ -211,9 +226,9 @@ $Tertiary-color: #191919;
   .project-container {
     padding-bottom: 1%;
     display: grid;
-    width: 100%;
+    width: 80%;
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin: auto;
     //margin-top: 20px;
@@ -241,43 +256,23 @@ $Tertiary-color: #191919;
       font-family: sans-serif;
       text-transform: capitalize;
     }
-    .project-pic1 {
-      width: 80%;
-      height: 190px;
-      margin-left: 8%;
+    .card-title2 {
+      margin-left: 2px;
+
+      font-size: 30px;
+      color: #ff4500;
+
+      font-family: bold;
+      font-family: sans-serif;
+      text-transform: capitalize;
+    }
+    .project-pic {
+      width: 95%;
+      height: 200px;
+      margin-left: 2%;
       padding-top: 4%;
     }
 
-    .project-pic2 {
-      width: 80%;
-      height: 200px;
-      margin-left: 8%;
-      padding-top: 4%;
-    }
-
-    .project-pic3 {
-      width: 80%;
-      height: 210px;
-      margin-left: 8%;
-      padding-top: 4%;
-    }
-    .project-pic4 {
-      height: 200px;
-      padding-top: 4%;
-      width: 100%;
-    }
-
-    .project-pic5 {
-      padding-top: 4%;
-      width: 100%;
-      height: 200px;
-    }
-
-    .project-pic6 {
-      padding-top: 4%;
-      width: 100%;
-      height: 200px;
-    }
     .card-description {
       margin-left: 15%;
       font-weight: bold;
@@ -286,34 +281,26 @@ $Tertiary-color: #191919;
     }
     .info {
       color: $color;
+      padding-top: 20px;
       height: 310px;
     }
 
     .info2 {
       color: $color;
-      height: 300px;
+      padding-top: 20px;
+      height: 310px;
     }
-    .info3 {
+    .info3456 {
       color: $color;
-      height: 290px;
+      padding-top: 20px;
+
+      height: 210px;
 
       &:hover {
         opacity: 1;
       }
     }
 
-    .info4 {
-      color: $color;
-      height: 160px;
-    }
-    .info5 {
-      color: $color;
-      height: 160px;
-    }
-    .info6 {
-      color: $color;
-      height: 160px;
-    }
     .card-link {
       text-decoration: none;
       border: 2px solid $color;
@@ -324,6 +311,26 @@ $Tertiary-color: #191919;
       font-size: 20px;
 
       margin-left: 12%;
+    }
+  }
+
+  #scrollButton {
+    background-color: $primary-color;
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px $primary-color;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    z-index: 10;
+
+    :active {
+      background: white;
     }
   }
   .contact {
@@ -447,16 +454,30 @@ footer {
       }
 
       a {
-        width: 100%;
+        width: 90%;
+        margin-left: 1px;
+
         font-size: 14px;
       }
     }
 
     .home {
-      height: 50vh;
+      height: 60vh;
+
+      h1 {
+        margin-top: 180px;
+        line-height: 7px;
+        font-size: 20px;
+        width: 100%;
+
+        h1::first-letter {
+          font-size: 21px;
+        }
+      }
 
       h6 {
-        margin-left: 2px;
+        font-size: 16px;
+        margin-right: 60px;
       }
     }
 
@@ -464,11 +485,29 @@ footer {
       height: 300vh;
       .me {
         width: 400px;
-        margin-left: 20px;
+        margin-left: 2px;
+      }
+      .about-me {
+        width: 400px;
       }
     }
+    .icon {
+      display: flex;
+      width: 70%;
+      margin-left: 40px;
+      margin-right: 0;
+    }
+
+    .soft-skills {
+      width: 90%;
+      margin-left: 2px;
+    }
     .projects {
-      height: 200px;
+      width: 100%;
+      height: 900px;
+    }
+    h2 {
+      font-size: 30px;
     }
 
     .project-container {
@@ -476,9 +515,15 @@ footer {
 
       grid-template-columns: 1fr;
     }
-    .contact {
-      margin-top: 40px;
+
+    .info,
+    .info2 {
+      margin-bottom: 100px;
     }
+  }
+  #contact {
+    margin-top: 4px;
+
     .text {
       width: fit-content;
       margin-left: 10px;
@@ -497,11 +542,10 @@ footer {
     }
   }
   .contact-form {
-    width: 100%;
+    width: 370px;
     margin-top: 4%;
-    margin-left: 0px;
+    margin-left: 40px;
     margin-bottom: 20px;
-    padding: 4px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -509,8 +553,8 @@ footer {
     .input-fields {
       display: flex;
       flex-direction: column;
-      margin-right: 1px;
-      width: 100%;
+
+      width: 270px;
       padding: 20px;
     }
 
