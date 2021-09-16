@@ -1,4 +1,4 @@
-$color: white;
+$color: rgba(245, 245, 245, 0.911);
 $primary-color: #d2691e;
 $Secondary-color: #ebe8e8;
 $Tertiary-color: #191919;
@@ -9,6 +9,7 @@ $Tertiary-color: #191919;
   color: #010101d7;
   font-size: 18px;
   font-family: "Crimson Text", serif;
+  font-style: normal;
   color: $Tertiary-color;
   line-height: 40px;
   scroll-behavior: smooth;
@@ -19,7 +20,7 @@ $Tertiary-color: #191919;
 
   nav {
     width: 100%;
-    height: 12%;
+    height: 11%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -124,12 +125,13 @@ $Tertiary-color: #191919;
       }
     }
   }
+
   .about {
     background-color: $color;
 
     margin-top: 0;
     margin-bottom: 0%;
-    height: 240vh;
+    height: 200vh;
     width: 100%;
     overflow: hidden;
   }
@@ -185,14 +187,7 @@ $Tertiary-color: #191919;
 
       font-size: 25px;
     }
-    .icon2 {
-      display: flex;
-      flex-direction: row;
-      margin-left: 450px;
-      gap: 30px;
-      flex-wrap: wrap;
-      font-weight: bold;
-    }
+
     .soft-skills {
       position: relative;
       font-weight: bold;
@@ -201,9 +196,9 @@ $Tertiary-color: #191919;
       padding-right: 10px;
       margin: 20px 60px 0 60px;
       font-size: 20px;
-      background-color: whitesmoke;
+      background-color: $color;
 
-      margin-bottom: 70px;
+      margin-bottom: 0px;
       h3 {
         padding-top: 2%;
         color: $primary-color;
@@ -217,9 +212,9 @@ $Tertiary-color: #191919;
   }
   .projects {
     background-color: $color;
-    height: 590vh;
+    height:620vh;
     background-size: 100% 100%;
-    padding-top: 0%;
+    padding-top: 20%;
     padding-bottom: 0%;
   }
 
@@ -235,7 +230,8 @@ $Tertiary-color: #191919;
   }
 
   .card {
-    border: 6px solid $primary-color;
+    border: 2px solid rgb(205, 210, 216);
+    border-radius: 10px;
     width: 100%;
     height: fit-content;
 
@@ -246,7 +242,7 @@ $Tertiary-color: #191919;
     width: 100%;
     height: 120%;
 
-    background-color: $Tertiary-color;
+    background-color: white;
 
     .card-title {
       font-size: 30px;
@@ -277,23 +273,28 @@ $Tertiary-color: #191919;
       margin-left: 15%;
       font-weight: bold;
 
-      color: $Secondary-color;
+      color: $Tertiary-color;
     }
     .info {
-      color: $color;
+      color: $Tertiary-color;
       padding-top: 20px;
       height: 310px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     .info2 {
-      color: $color;
+      color: $Tertiary-color;
       padding-top: 20px;
       height: 310px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .info3456 {
-      color: $color;
+      color: $Tertiary-color;
       padding-top: 20px;
-
+      margin-left: 20px;
+      margin-right: 20px;
       height: 210px;
 
       &:hover {
@@ -426,7 +427,7 @@ $Tertiary-color: #191919;
 
 footer {
   width: 100%;
-  height: 100%;
+  height: 50px;
   margin: 0% 0 0%;
   display: flex;
   justify-content: flex-end;
@@ -441,6 +442,9 @@ footer {
     color: $color;
     left: 0;
     margin-left: 20px;
+  }
+  #year {
+    color: $color;
   }
 }
 

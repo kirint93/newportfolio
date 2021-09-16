@@ -6,6 +6,7 @@
   color: #010101d7;
   font-size: 18px;
   font-family: "Crimson Text", serif;
+  font-style: normal;
   color: #191919;
   line-height: 40px;
   scroll-behavior: smooth;
@@ -18,7 +19,7 @@
 
 .portfolio nav {
   width: 100%;
-  height: 12%;
+  height: 11%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +63,7 @@
 .portfolio h1 {
   text-align: center;
   text-overflow: o;
-  color: white;
+  color: rgba(245, 245, 245, 0.911);
   display: inline-block;
   font-size: 48px;
   font-family: "Poppins";
@@ -93,7 +94,7 @@
 }
 
 .portfolio h6 {
-  color: white;
+  color: rgba(245, 245, 245, 0.911);
   margin-top: 0%;
   line-height: 15px;
   text-align: center;
@@ -126,10 +127,10 @@
 }
 
 .portfolio .home .intro .contact {
-  border: solid 2px white;
+  border: solid 2px rgba(245, 245, 245, 0.911);
   border-radius: 9px;
   background-color: #000000;
-  color: white;
+  color: rgba(245, 245, 245, 0.911);
   font-size: 23px;
   height: 10vh;
   width: 40%;
@@ -141,10 +142,10 @@
 }
 
 .portfolio .about {
-  background-color: white;
+  background-color: rgba(245, 245, 245, 0.911);
   margin-top: 0;
   margin-bottom: 0%;
-  height: 240vh;
+  height: 200vh;
   width: 100%;
   overflow: hidden;
 }
@@ -215,21 +216,6 @@
   font-size: 25px;
 }
 
-.portfolio .skills .icon2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 450px;
-  gap: 30px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  font-weight: bold;
-}
-
 .portfolio .skills .soft-skills {
   position: relative;
   font-weight: bold;
@@ -238,8 +224,8 @@
   padding-right: 10px;
   margin: 20px 60px 0 60px;
   font-size: 20px;
-  background-color: whitesmoke;
-  margin-bottom: 70px;
+  background-color: rgba(245, 245, 245, 0.911);
+  margin-bottom: 0px;
 }
 
 .portfolio .skills .soft-skills h3 {
@@ -253,10 +239,10 @@
 }
 
 .portfolio .projects {
-  background-color: white;
-  height: 590vh;
+  background-color: rgba(245, 245, 245, 0.911);
+  height: 620vh;
   background-size: 100% 100%;
-  padding-top: 0%;
+  padding-top: 20%;
   padding-bottom: 0%;
 }
 
@@ -272,7 +258,8 @@
 }
 
 .portfolio .card {
-  border: 6px solid #d2691e;
+  border: 2px solid #cdd2d8;
+  border-radius: 10px;
   width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -283,7 +270,7 @@
 .portfolio .card-body {
   width: 100%;
   height: 120%;
-  background-color: #191919;
+  background-color: white;
 }
 
 .portfolio .card-body .card-title {
@@ -314,24 +301,30 @@
 .portfolio .card-body .card-description {
   margin-left: 15%;
   font-weight: bold;
-  color: #ebe8e8;
+  color: #191919;
 }
 
 .portfolio .card-body .info {
-  color: white;
+  color: #191919;
   padding-top: 20px;
   height: 310px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .portfolio .card-body .info2 {
-  color: white;
+  color: #191919;
   padding-top: 20px;
   height: 310px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .portfolio .card-body .info3456 {
-  color: white;
+  color: #191919;
   padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 210px;
 }
 
@@ -341,7 +334,7 @@
 
 .portfolio .card-body .card-link {
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid rgba(245, 245, 245, 0.911);
   border-radius: 6px;
   padding: 3px 3px 3px;
   background-color: #078907;
@@ -512,12 +505,12 @@
 
 .contact-form .input-fields .button:hover,
 .contact-form .content .button:hover {
-  border: 2px solid white;
+  border: 2px solid rgba(245, 245, 245, 0.911);
 }
 
 footer {
   width: 100%;
-  height: 100%;
+  height: 50px;
   margin: 0% 0 0%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -540,9 +533,13 @@ footer p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: white;
+  color: rgba(245, 245, 245, 0.911);
   left: 0;
   margin-left: 20px;
+}
+
+footer #year {
+  color: rgba(245, 245, 245, 0.911);
 }
 
 @media only screen and (max-width: 420px) {
