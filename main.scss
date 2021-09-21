@@ -445,20 +445,18 @@ footer {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
   .portfolio {
-    height: 250vh;
+    height: 280vh;
     width: 100%;
     h2 {
-      margin-left:  1px;
+      margin-left: 2px;
       font-size: 24px;
-
-      }
-    nav {
-     display: none;
-
     }
-        .home {
+    nav {
+      display: none;
+    }
+    .home {
       height: 150vh;
 
       h1 {
@@ -478,17 +476,11 @@ footer {
       }
     }
 
-  }
-
-
-
-
     .about {
-      height: 800vh;
-
+      height: 300vh;
 
       .me {
-        width: 300px;
+        width: 250px;
         margin-left: 2px;
         height: 200px;
       }
@@ -496,123 +488,141 @@ footer {
         width: 250px;
         margin-left: 1px;
         font-size: 10px;
-
-
-      }
-     }
-  .icon {
-      display: flex;
-      width: 70%;
-      margin-left: 40px;
-      margin-right: 0;
-    }
-
-    .soft-skills {
-      width: 90%;
-      margin-left: 2px;
-    }
-
-//     h2 {
-//       font-size: 30px;
-//     }
-  .projects{
-    width: 350px;
-    height: 90%;
-
-
-    .project-container {
-
-        display: grid;
-        grid-template-columns:  repeat(1fr);
-        width: 100%;
       }
 
- }
- .card {
-  border: 2px solid rgb(205, 210, 216);
-  border-radius: 10px;
-  width: 100%;
-  height: fit-content;
-
-  padding-bottom: 1px;
-
-    .info,
-    .info2 {
-      margin-bottom: 10px;
-
-    }
-  }
-  #contact {
-    height: 200px;
-    margin-top: 4px;
-    margin-left: 2px;
-
-    .contact{
-      margin-right:60px;
-    }
-
-    .text {
-      width: 50%;
-      font-size: 15px;
-      margin-left: 40px;
-      margin-bottom: 1%;
-    }
-    .contact-icons-container {
-      width: 14%;
-      height: 1%;
-      margin-bottom: 70px;
-      margin-left: 26px;
-
-      a {
-        margin: 20px 20px 10px;
-
-
-      }
-    }
-  }
-  .contact-form {
-    width: 200px;
-    margin-top: 4%;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-
-    .input-fields {
-      display: flex;
-      flex-direction: column;
-
-      width: 270px;
-      padding: 20px;
-    }
-
-    .input-fields,
-    .content {
-      width: 100%;
-
-      input,
-      textarea {
-        margin: 10px 0;
-
-        width: 100%;
-      }
-
-      textarea {
-        height: 210px;
-      }
-      .button {
+      .icon {
+        display: flex;
         width: 60%;
-        align-items: center;
-        margin-left: 30px;
+        margin-left: 50px;
+        margin-right: 0;
+        padding-left: 10px;
+      }
+
+      .soft-skills {
+        width: 260px;
+        margin-right: 58px;
       }
     }
-  }
+    //     h2 {
+    //       font-size: 30px;
+    //     }
+    .projects {
+      width: 100%;
+      background-size: 100% 100%;
 
-  footer {
-    display: none;
+      .project-container {
+        display: grid;
+        gap: 30px;
+        margin: auto;
+        grid-template-columns: 1fr;
+
+        width: 50%;
+        padding-bottom: 1%;
+        justify-content: center;
+
+        .card {
+          margin-bottom: 170px;
+          margin-right: 120px;
+
+          .card-body {
+            height: 800px;
+            .info {
+              color: $Tertiary-color;
+              padding-top: 20px;
+              height: 450px;
+              margin-left: 20px;
+              margin-right: 20px;
+            }
+
+            .info2 {
+              color: $Tertiary-color;
+              padding-top: 20px;
+              height: 370px;
+              margin-left: 20px;
+              margin-right: 20px;
+            }
+            .info3456 {
+              color: $Tertiary-color;
+              padding-top: 20px;
+              margin-left: 20px;
+              margin-right: 20px;
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+    #contact {
+      height: 250px;
+      margin-top: 20px;
+      margin-left: 2px;
+
+      .contact {
+        margin-right: 10px;
+      }
+
+      .text {
+        width: 50%;
+        font-size: 15px;
+        margin-left: 100px;
+        margin-bottom: 1%;
+      }
+      .contact-icons-container {
+        width: 14%;
+        height: 1%;
+        margin-bottom: 70px;
+        margin-left: 140px;
+
+        a {
+          margin: 20px 20px 10px;
+        }
+      }
+
+      .contact-form {
+        width: 250px;
+        margin-top: 6%;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+        .input-fields {
+          display: flex;
+          flex-direction: column;
+
+          width: 270px;
+          padding: 20px;
+        }
+
+        .input-fields,
+        .content {
+          width: 100%;
+
+          input,
+          textarea {
+            margin: 10px 0;
+
+            width: 100%;
+          }
+
+          textarea {
+            height: 210px;
+          }
+          .button {
+            width: 60%;
+            align-items: center;
+            margin-left: 30px;
+          }
+        }
+      }
+    }
+    footer {
+      display: none;
+    }
   }
 }
+
 @media only screen and (min-width: 1440px) {
   .headers {
     margin-left: 15%;

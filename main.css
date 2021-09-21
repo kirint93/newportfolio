@@ -540,13 +540,13 @@ footer #year {
   color: #dfd9d9;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 425px) {
   .portfolio {
-    height: 250vh;
+    height: 280vh;
     width: 100%;
   }
   .portfolio h2 {
-    margin-left: 1px;
+    margin-left: 2px;
     font-size: 24px;
   }
   .portfolio nav {
@@ -568,82 +568,104 @@ footer #year {
     font-size: 16px;
     margin-right: 30px;
   }
-  .about {
-    height: 800vh;
+  .portfolio .about {
+    height: 300vh;
   }
-  .about .me {
-    width: 300px;
+  .portfolio .about .me {
+    width: 250px;
     margin-left: 2px;
     height: 200px;
   }
-  .about .about-me {
+  .portfolio .about .about-me {
     width: 250px;
     margin-left: 1px;
     font-size: 10px;
   }
-  .icon {
+  .portfolio .about .icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 70%;
-    margin-left: 40px;
+    width: 60%;
+    margin-left: 50px;
     margin-right: 0;
+    padding-left: 10px;
   }
-  .soft-skills {
-    width: 90%;
-    margin-left: 2px;
+  .portfolio .about .soft-skills {
+    width: 260px;
+    margin-right: 58px;
   }
-  .projects {
-    width: 350px;
-    height: 90%;
+  .portfolio .projects {
+    width: 100%;
+    background-size: 100% 100%;
   }
-  .projects .project-container {
+  .portfolio .projects .project-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: ()[1fr];
-        grid-template-columns: repeat(1fr);
-    width: 100%;
+    gap: 30px;
+    margin: auto;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 50%;
+    padding-bottom: 1%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .card {
-    border: 2px solid #cdd2d8;
-    border-radius: 10px;
-    width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    padding-bottom: 1px;
+  .portfolio .projects .project-container .card {
+    margin-bottom: 170px;
+    margin-right: 120px;
   }
-  .card .info,
-  .card .info2 {
-    margin-bottom: 10px;
+  .portfolio .projects .project-container .card .card-body {
+    height: 800px;
   }
-  #contact {
-    height: 200px;
-    margin-top: 4px;
+  .portfolio .projects .project-container .card .card-body .info {
+    color: #191919;
+    padding-top: 20px;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .portfolio .projects .project-container .card .card-body .info2 {
+    color: #191919;
+    padding-top: 20px;
+    height: 370px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .portfolio .projects .project-container .card .card-body .info3456 {
+    color: #191919;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+  }
+  .portfolio #contact {
+    height: 250px;
+    margin-top: 20px;
     margin-left: 2px;
   }
-  #contact .contact {
-    margin-right: 60px;
+  .portfolio #contact .contact {
+    margin-right: 10px;
   }
-  #contact .text {
+  .portfolio #contact .text {
     width: 50%;
     font-size: 15px;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-bottom: 1%;
   }
-  #contact .contact-icons-container {
+  .portfolio #contact .contact-icons-container {
     width: 14%;
     height: 1%;
     margin-bottom: 70px;
-    margin-left: 26px;
+    margin-left: 140px;
   }
-  #contact .contact-icons-container a {
+  .portfolio #contact .contact-icons-container a {
     margin: 20px 20px 10px;
   }
-  .contact-form {
-    width: 200px;
-    margin-top: 4%;
-    margin-left: 20px;
+  .portfolio #contact .contact-form {
+    width: 250px;
+    margin-top: 6%;
+    margin-left: 60px;
     margin-bottom: 20px;
     border-radius: 5px;
     display: -webkit-box;
@@ -654,7 +676,7 @@ footer #year {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .contact-form .input-fields {
+  .portfolio #contact .contact-form .input-fields {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -665,30 +687,30 @@ footer #year {
     width: 270px;
     padding: 20px;
   }
-  .contact-form .input-fields,
-  .contact-form .content {
+  .portfolio #contact .contact-form .input-fields,
+  .portfolio #contact .contact-form .content {
     width: 100%;
   }
-  .contact-form .input-fields input,
-  .contact-form .input-fields textarea,
-  .contact-form .content input,
-  .contact-form .content textarea {
+  .portfolio #contact .contact-form .input-fields input,
+  .portfolio #contact .contact-form .input-fields textarea,
+  .portfolio #contact .contact-form .content input,
+  .portfolio #contact .contact-form .content textarea {
     margin: 10px 0;
     width: 100%;
   }
-  .contact-form .input-fields textarea,
-  .contact-form .content textarea {
+  .portfolio #contact .contact-form .input-fields textarea,
+  .portfolio #contact .contact-form .content textarea {
     height: 210px;
   }
-  .contact-form .input-fields .button,
-  .contact-form .content .button {
+  .portfolio #contact .contact-form .input-fields .button,
+  .portfolio #contact .contact-form .content .button {
     width: 60%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin-left: 30px;
   }
-  footer {
+  .portfolio footer {
     display: none;
   }
 }
