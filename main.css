@@ -4,8 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #010101d7;
-  font-size: 18px;
-  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
   font-style: normal;
   color: #191919;
   line-height: 40px;
@@ -15,7 +15,7 @@
 .portfolio {
   height: 240vh;
   width: 100%;
-  background-color: #dfd9d9;
+  background-color: #191919;
 }
 
 .portfolio nav {
@@ -30,7 +30,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   color: transparent;
   background-color: transparent;
   background-color: #d2691e;
@@ -65,24 +64,24 @@
 .portfolio h1 {
   text-align: center;
   text-overflow: o;
-  color: #dfd9d9;
+  color: whitesmoke;
   display: inline-block;
-  font-size: 48px;
+  font-size: 58px;
   font-family: "Poppins";
   letter-spacing: 8px;
   line-height: 70px;
-  margin-bottom: 0%;
+  margin-bottom: 4%;
 }
 
 .portfolio h1::first-letter {
-  font-size: 71px;
+  font-size: 81px;
   font-weight: bold;
-  color: #800080;
+  color: yellow;
 }
 
 .portfolio h2 {
   text-align: center;
-  color: #191919;
+  color: #dfd9d9;
   font-size: 45px;
   margin-top: 5%;
   margin-bottom: 2%;
@@ -97,15 +96,15 @@
 
 .portfolio h6 {
   color: #dfd9d9;
+  font-weight: bold;
   margin-top: 0%;
   line-height: 15px;
   text-align: center;
-  font-size: 20px;
-  font-family: "Poppins";
+  font-size: 25px;
 }
 
 .portfolio .home {
-  background-image: url(./images/dark.png);
+  background-image: url(./images/background.jpg);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -114,6 +113,7 @@
   padding-bottom: 0px;
   overflow: hidden;
   margin-top: 0;
+  border-bottom: 5px solid white;
 }
 
 .portfolio .home .intro {
@@ -133,9 +133,9 @@
   border-radius: 9px;
   background-color: #000000;
   color: #dfd9d9;
-  font-size: 23px;
-  height: 10vh;
-  width: 40%;
+  font-size: 18px;
+  height: 8vh;
+  width: 35%;
   margin: 15px 90px;
 }
 
@@ -144,9 +144,10 @@
 }
 
 .portfolio .about {
-  height: 220vh;
+  height: 240vh;
   width: 100%;
   overflow: hidden;
+  border-bottom: 5px solid white;
 }
 
 .portfolio .me {
@@ -220,7 +221,7 @@
   color: #191919;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 20px 60px 0 60px;
+  margin: 20px 60px 0 20px;
   font-size: 20px;
   background-color: white;
 }
@@ -235,11 +236,15 @@
   color: #191919;
 }
 
+.portfolio #clickable {
+  margin-top: 20px;
+}
+
 .portfolio .projects {
-  height: 570vh;
+  height: 550vh;
   background-size: 100% 100%;
-  padding-top: 20%;
-  padding-bottom: 0%;
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 .portfolio .projects .project-container {
@@ -270,9 +275,9 @@
 }
 
 .portfolio .projects .card-body .card-title {
-  font-size: 30px;
+  font-size: 23px;
   color: #ff4500;
-  margin-left: 20%;
+  margin-left: 35%;
   font-family: bold;
   font-family: sans-serif;
   text-transform: capitalize;
@@ -303,9 +308,10 @@
 .portfolio .projects .card-body .info {
   color: #191919;
   padding-top: 20px;
-  height: 250px;
+  height: 290px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 14px;
 }
 
 .portfolio .projects .card-body .info2 {
@@ -321,7 +327,7 @@
   padding-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 150px;
+  height: 173px;
 }
 
 .portfolio .projects .card-body .info3456:hover {
@@ -361,6 +367,7 @@
 }
 
 .portfolio #contact {
+  border-top: 5px solid white;
   margin-top: 40px;
   height: 300px;
 }
@@ -661,6 +668,7 @@ footer #year {
   }
   .portfolio #contact .contact-icons-container a {
     margin: 20px 20px 10px;
+    color: white;
   }
   .portfolio #contact .contact-form {
     width: 250px;

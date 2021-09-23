@@ -7,8 +7,8 @@ $Tertiary-color: #191919;
   margin: 0;
   box-sizing: border-box;
   color: #010101d7;
-  font-size: 18px;
-  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
   font-style: normal;
   color: $Tertiary-color;
   line-height: 40px;
@@ -17,7 +17,7 @@ $Tertiary-color: #191919;
 .portfolio {
   height: 240vh;
   width: 100%;
-  background-color: $color;
+  background-color: $Tertiary-color;
 
   nav {
     width: 100%;
@@ -25,7 +25,7 @@ $Tertiary-color: #191919;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
+    // position: fixed;
     color: transparent;
     background-color: transparent;
     background-color: #d2691e;
@@ -54,24 +54,24 @@ $Tertiary-color: #191919;
   h1 {
     text-align: center;
     text-overflow: o;
-    color: $color;
+    color: whitesmoke;
     display: inline-block;
 
-    font-size: 48px;
+    font-size: 58px;
     font-family: "Poppins";
     letter-spacing: 8px;
     line-height: 70px;
 
-    margin-bottom: 0%;
+    margin-bottom: 4%;
   }
   h1::first-letter {
-    font-size: 71px;
+    font-size: 81px;
     font-weight: bold;
-    color: #800080;
+    color: yellow;
   }
   h2 {
     text-align: center;
-    color: $Tertiary-color;
+    color: $color;
     font-size: 45px;
     margin-top: 5%;
     margin-bottom: 2%;
@@ -86,15 +86,17 @@ $Tertiary-color: #191919;
 
   h6 {
     color: $color;
+    font-weight: bold;
+
     margin-top: 0%;
     line-height: 15px;
     text-align: center;
-    font-size: 20px;
-    font-family: "Poppins";
+    font-size: 25px;
+    // font-family: "Poppins";
   }
 
   .home {
-    background-image: url(./images/dark.png);
+    background-image: url(./images/background.jpg);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -103,6 +105,7 @@ $Tertiary-color: #191919;
     padding-bottom: 0px;
     overflow: hidden;
     margin-top: 0;
+    border-bottom: 5px solid white;
 
     .intro {
       display: flex;
@@ -116,9 +119,9 @@ $Tertiary-color: #191919;
         border-radius: 9px;
         background-color: #000000;
         color: $color;
-        font-size: 23px;
-        height: 10vh;
-        width: 40%;
+        font-size: 18px;
+        height: 8vh;
+        width: 35%;
         margin: 15px 90px;
       }
 
@@ -129,9 +132,10 @@ $Tertiary-color: #191919;
   }
 
   .about {
-    height: 220vh;
+    height: 240vh;
     width: 100%;
     overflow: hidden;
+    border-bottom: 5px solid white;
   }
   .me {
     margin-left: 440px;
@@ -192,7 +196,7 @@ $Tertiary-color: #191919;
       color: $Tertiary-color;
       padding-left: 10px;
       padding-right: 10px;
-      margin: 20px 60px 0 60px;
+      margin: 20px 60px 0 20px;
       font-size: 20px;
       background-color: $Secondary-color;
 
@@ -207,11 +211,15 @@ $Tertiary-color: #191919;
       }
     }
   }
+
+  #clickable {
+    margin-top: 20px;
+  }
   .projects {
-    height: 570vh;
+    height: 550vh;
     background-size: 100% 100%;
-    padding-top: 20%;
-    padding-bottom: 0%;
+    padding-top: 3%;
+    padding-bottom: 2%;
 
     .project-container {
       padding-bottom: 1%;
@@ -240,9 +248,9 @@ $Tertiary-color: #191919;
       background-color: white;
 
       .card-title {
-        font-size: 30px;
+        font-size: 23px;
         color: #ff4500;
-        margin-left: 20%;
+        margin-left: 35%;
         font-family: bold;
         font-family: sans-serif;
         text-transform: capitalize;
@@ -273,9 +281,10 @@ $Tertiary-color: #191919;
       .info {
         color: $Tertiary-color;
         padding-top: 20px;
-        height: 250px;
+        height: 290px;
         margin-left: 20px;
         margin-right: 20px;
+        font-size: 14px;
       }
 
       .info2 {
@@ -290,7 +299,7 @@ $Tertiary-color: #191919;
         padding-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
-        height: 150px;
+        height: 173px;
 
         &:hover {
           opacity: 1;
@@ -330,6 +339,7 @@ $Tertiary-color: #191919;
     }
   }
   #contact {
+    border-top: 5px solid white;
     margin-top: 40px;
     height: 300px;
   }
@@ -550,6 +560,8 @@ footer {
             }
           }
         }
+
+      
       }
     }
     #contact {
@@ -575,6 +587,7 @@ footer {
 
         a {
           margin: 20px 20px 10px;
+          color: white;
         }
       }
 
