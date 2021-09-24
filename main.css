@@ -576,16 +576,16 @@ footer #year {
     margin-right: 30px;
   }
   .portfolio .about {
-    height: 300vh;
+    height: 450vh;
   }
   .portfolio .about .me {
     width: 250px;
-    margin-left: 2px;
+    margin-left: 50px;
     height: 200px;
   }
   .portfolio .about .about-me {
     width: 250px;
-    margin-left: 1px;
+    margin-left: 50px;
     font-size: 10px;
   }
   .portfolio .about .icon {
@@ -623,7 +623,7 @@ footer #year {
     margin-right: 120px;
   }
   .portfolio .projects .project-container .card .card-body {
-    height: 800px;
+    height: 840px;
   }
   .portfolio .projects .project-container .card .card-body .info {
     color: #191919;
@@ -635,7 +635,7 @@ footer #year {
   .portfolio .projects .project-container .card .card-body .info2 {
     color: #191919;
     padding-top: 20px;
-    height: 370px;
+    height: 460px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -644,7 +644,7 @@ footer #year {
     padding-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    height: 250px;
+    height: 350px;
   }
   .portfolio #contact {
     height: 250px;

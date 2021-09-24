@@ -487,16 +487,16 @@ footer {
     }
 
     .about {
-      height: 300vh;
+      height: 450vh;
 
       .me {
         width: 250px;
-        margin-left: 2px;
+        margin-left: 50px;
         height: 200px;
       }
       .about-me {
         width: 250px;
-        margin-left: 1px;
+        margin-left: 50px;
         font-size: 10px;
       }
 
@@ -535,7 +535,7 @@ footer {
           margin-right: 120px;
 
           .card-body {
-            height: 800px;
+            height: 840px;
             .info {
               color: $Tertiary-color;
               padding-top: 20px;
@@ -547,7 +547,7 @@ footer {
             .info2 {
               color: $Tertiary-color;
               padding-top: 20px;
-              height: 370px;
+              height: 460px;
               margin-left: 20px;
               margin-right: 20px;
             }
@@ -556,12 +556,10 @@ footer {
               padding-top: 20px;
               margin-left: 20px;
               margin-right: 20px;
-              height: 250px;
+              height: 350px;
             }
           }
         }
-
-      
       }
     }
     #contact {
