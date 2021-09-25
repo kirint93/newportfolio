@@ -64,19 +64,16 @@
 .portfolio h1 {
   text-align: center;
   text-overflow: o;
-  color: whitesmoke;
+  color: #dfd9d9;
   display: inline-block;
-  font-size: 58px;
-  font-family: "Poppins";
-  letter-spacing: 8px;
+  text-shadow: yellow 0px 0px 12px;
+  font-weight: 600;
+  font-size: 90px;
+  width: 310px;
+  letter-spacing: 7px;
+  margin-right: 20px;
   line-height: 70px;
-  margin-bottom: 4%;
-}
-
-.portfolio h1::first-letter {
-  font-size: 81px;
-  font-weight: bold;
-  color: yellow;
+  margin-bottom: 2%;
 }
 
 .portfolio h2 {
@@ -97,10 +94,11 @@
 .portfolio h6 {
   color: #dfd9d9;
   font-weight: bold;
-  margin-top: 0%;
+  text-shadow: yellow 0px 0px 10px;
+  margin-top: 2%;
   line-height: 15px;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .portfolio .home {
@@ -126,17 +124,6 @@
   height: 88.6vh;
   margin-left: 5%;
   margin-top: 7%;
-}
-
-.portfolio .home .intro .contact {
-  border: solid 2px #dfd9d9;
-  border-radius: 9px;
-  background-color: #000000;
-  color: #dfd9d9;
-  font-size: 18px;
-  height: 8vh;
-  width: 35%;
-  margin: 15px 90px;
 }
 
 .portfolio .home .intro .span h3 {
@@ -236,8 +223,13 @@
   color: #191919;
 }
 
-.portfolio #clickable {
-  margin-top: 20px;
+.portfolio .plus {
+  color: #dfd9d9;
+  margin-top: 2px;
+}
+
+.portfolio #clickableTitle {
+  margin-top: 0px;
 }
 
 .portfolio .projects {
@@ -260,6 +252,8 @@
 
 .portfolio .projects .card {
   border: 2px solid #cdd2d8;
+  -webkit-box-shadow: #dfd9d9 0px 0px 10px;
+          box-shadow: #dfd9d9 0px 0px 10px;
   border-radius: 10px;
   width: 100%;
   height: -webkit-fit-content;
