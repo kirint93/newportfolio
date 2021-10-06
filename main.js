@@ -15,9 +15,9 @@ scrollButton.addEventListener("click", () => {
     });
 });
 
-document.getElementById("clickable")
+document.getElementById("clickableTitle")
 
 
 function changeProjects() {
-    
+
 }

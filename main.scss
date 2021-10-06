@@ -54,21 +54,22 @@ $Tertiary-color: #191919;
   h1 {
     text-align: center;
     text-overflow: o;
-    color: whitesmoke;
+    color: $color;
     display: inline-block;
-
-    font-size: 58px;
-    font-family: "Poppins";
-    letter-spacing: 8px;
+    text-shadow: yellow 0px 0px 12px;
+    font-weight:600;
+    font-size: 90px;
+    width: 310px;
+    letter-spacing: 7px;
+    margin-right: 20px;
     line-height: 70px;
-
-    margin-bottom: 4%;
+    margin-bottom: 2%;
   }
-  h1::first-letter {
-    font-size: 81px;
-    font-weight: bold;
-    color: yellow;
-  }
+  // h1::first-letter {
+  //   font-size: 81px;
+  //   font-weight: bold;
+  //   color: $color;
+  // }
   h2 {
     text-align: center;
     color: $color;
@@ -87,11 +88,11 @@ $Tertiary-color: #191919;
   h6 {
     color: $color;
     font-weight: bold;
-
-    margin-top: 0%;
+    text-shadow: yellow 0px 0px 10px;
+    margin-top: 2%;
     line-height: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     // font-family: "Poppins";
   }
 
@@ -114,16 +115,20 @@ $Tertiary-color: #191919;
       margin-left: 5%;
       margin-top: 7%;
 
-      .contact {
-        border: solid 2px $color;
-        border-radius: 9px;
-        background-color: #000000;
-        color: $color;
-        font-size: 18px;
-        height: 8vh;
-        width: 35%;
-        margin: 15px 90px;
-      }
+      // .contact {
+      //   border: solid 2px $color;
+      //   border-radius: 9px;
+      //   background: none;
+      //   box-shadow: yellow 0px 0px 10px;
+
+      //   color: $color;
+      //   font-size: 18px;
+      //   font-weight: bold;
+      //   height: 8vh;
+
+      //   width: 25%;
+      //   margin: 45px 185px ;
+      // }
 
       .span h3 {
         font-size: 80px;
@@ -136,6 +141,7 @@ $Tertiary-color: #191919;
     width: 100%;
     overflow: hidden;
     border-bottom: 5px solid white;
+
   }
   .me {
     margin-left: 440px;
@@ -212,14 +218,21 @@ $Tertiary-color: #191919;
     }
   }
 
-  #clickable {
-    margin-top: 20px;
+.plus{
+  color: $color;
+  margin-top:2px;
+}
+
+  #clickableTitle {
+    margin-top: 0px;
   }
   .projects {
-    height: 550vh;
+    height: 850vh;
     background-size: 100% 100%;
     padding-top: 3%;
     padding-bottom: 2%;
+
+
 
     .project-container {
       padding-bottom: 1%;
@@ -234,6 +247,7 @@ $Tertiary-color: #191919;
 
     .card {
       border: 2px solid rgb(205, 210, 216);
+      box-shadow:  $color 0px 0px 10px;;
       border-radius: 10px;
       width: 100%;
       height: fit-content;
@@ -338,6 +352,7 @@ $Tertiary-color: #191919;
       background: $Secondary-color;
     }
   }
+
   #contact {
     border-top: 5px solid white;
     margin-top: 40px;
@@ -487,16 +502,16 @@ footer {
     }
 
     .about {
-      height: 300vh;
+      height: 450vh;
 
       .me {
         width: 250px;
-        margin-left: 2px;
+        margin-left: 50px;
         height: 200px;
       }
       .about-me {
         width: 250px;
-        margin-left: 1px;
+        margin-left: 50px;
         font-size: 10px;
       }
 
@@ -535,7 +550,7 @@ footer {
           margin-right: 120px;
 
           .card-body {
-            height: 800px;
+            height: 840px;
             .info {
               color: $Tertiary-color;
               padding-top: 20px;
@@ -547,7 +562,7 @@ footer {
             .info2 {
               color: $Tertiary-color;
               padding-top: 20px;
-              height: 370px;
+              height: 460px;
               margin-left: 20px;
               margin-right: 20px;
             }
@@ -556,12 +571,10 @@ footer {
               padding-top: 20px;
               margin-left: 20px;
               margin-right: 20px;
-              height: 250px;
+              height: 350px;
             }
           }
         }
-
-      
       }
     }
     #contact {
