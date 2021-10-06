@@ -110,7 +110,7 @@ $Tertiary-color: #191919;
     margin-top: 0;
     border-bottom: 5px solid white;
 
-    .intro {
+         .intro {
       display: flex;
       justify-content: center;
       height: 88.6vh;
@@ -546,11 +546,12 @@ $Tertiary-color: #191919;
 
 @media only screen and (max-width: 736px) {
   .portfolio {
-    height: 380vh;
+    height: 680vh;
     width: 100%;
     h2 {
-      margin-left: 2px;
-      font-size: 24px;
+      margin-left: 1px;
+      font-size: 18px;
+
     }
     nav {
       width: 100%;
@@ -563,6 +564,7 @@ $Tertiary-color: #191919;
         margin-left: 10px;
       }
     }
+
     .home {
       height: 150vh;
 
@@ -586,7 +588,7 @@ $Tertiary-color: #191919;
     }
 
     .about {
-      height: 525vh;
+      height: 400vh;
 
       .me {
         width: 250px;
@@ -595,55 +597,82 @@ $Tertiary-color: #191919;
       }
       .about-me {
         width: 250px;
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 10px;
+        height: 750px;
       }
       .skills {
-        height: 220vh;
+        height: 450vh;
+       width: 500px;
+
+
+
+h2{
+
+  margin-right: 250px;
+}
+h5{
+  margin-right: 150px;
+}
+
 
         .icon {
           display: flex;
           flex-direction: row;
-          width: 90%;
-          margin-left: 1px;
-          margin-right: 0;
-          padding-left: 2px;
+         width:100%;
+
+         div{
+           padding-right:1px;
+         }
+
         }
 
         .skillsExposed {
-          width: fit-content;
+          width: 100%;
 
           .icon2 {
-            margin-left: 1%;
+           margin-left: 0px;
             flex-direction: row;
+
+            div{
+              padding-right: 1px;
+            }
           }
         }
-
+h3{
+  margin-right:300px;
+}
         .soft-skills {
-          position: relative;
+
           font-weight: bold;
-          color: green;
-          padding-left: 10px;
-          padding-right: 10px;
-          margin: 20px 60px 0 20px;
-          font-size: 20px;
+
+          margin-right: 250px;
+          font-size: 10px;
+
+           width: 250px;
           background-color: $color;
+
 
           h3 {
             padding-top: 1%;
             color: $primary-color;
-            font-size: 25px;
-
-            .ul {
-              color: $Tertiary-color;
-            }
+            font-size: 22px;
           }
+            ul {
+              color: $Tertiary-color;
+
+           padding-left: 0px;
+
+
+
+
+          }
+
+            }
         }
       }
     }
-    //     h2 {
-    //       font-size: 30px;
-    //     }
+
     .projects {
       width: 100%;
       background-size: 100% 100%;
@@ -661,18 +690,25 @@ $Tertiary-color: #191919;
 
         .card {
           // margin-bottom: 170px;
-          margin-right: 350px;
-          width: 30%;
-
+          margin-right: 110px;
+          width: 27%;
+        .card-description{
+          margin-left: 7px;
+          font-size: 14px;
+          width: fit-content;
+          .card-description1{
+            font-size:13px;
+          }
+        }
           .card-body {
-            height: 120%;
+            height: 130%;
             .info {
               color: $Tertiary-color;
-              font-size: 15px;
-              padding-top: 20px;
-              height: 650px;
-              margin-left: 20px;
-              margin-right: 20px;
+              font-size: 11px;
+            padding-top: 8px;
+              height: 450px;
+              margin-left: 7px;
+              margin-right: 3px;
             }
 
             .info2 {
@@ -772,7 +808,7 @@ $Tertiary-color: #191919;
       }
     }
   }
-}
+
 @media only screen and (min-width: 1440px) {
   .headers {
     margin-left: 15%;

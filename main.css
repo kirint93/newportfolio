@@ -618,12 +618,12 @@
 
 @media only screen and (max-width: 736px) {
   .portfolio {
-    height: 380vh;
+    height: 680vh;
     width: 100%;
   }
   .portfolio h2 {
-    margin-left: 2px;
-    font-size: 24px;
+    margin-left: 1px;
+    font-size: 18px;
   }
   .portfolio nav {
     width: 100%;
@@ -658,7 +658,7 @@
     margin-right: 30px;
   }
   .portfolio .about {
-    height: 525vh;
+    height: 400vh;
   }
   .portfolio .about .me {
     width: 250px;
@@ -667,11 +667,19 @@
   }
   .portfolio .about .about-me {
     width: 250px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 10px;
+    height: 750px;
   }
   .portfolio .about .skills {
-    height: 220vh;
+    height: 450vh;
+    width: 500px;
+  }
+  .portfolio .about .skills h2 {
+    margin-right: 250px;
+  }
+  .portfolio .about .skills h5 {
+    margin-right: 150px;
   }
   .portfolio .about .skills .icon {
     display: -webkit-box;
@@ -681,47 +689,49 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 90%;
-    margin-left: 1px;
-    margin-right: 0;
-    padding-left: 2px;
+    width: 100%;
+  }
+  .portfolio .about .skills .icon div {
+    padding-right: 1px;
   }
   .portfolio .about .skills .skillsExposed {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 100%;
   }
   .portfolio .about .skills .skillsExposed .icon2 {
-    margin-left: 1%;
+    margin-left: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .portfolio .about .skills .skillsExposed .icon2 div {
+    padding-right: 1px;
+  }
+  .portfolio .about .skills h3 {
+    margin-right: 300px;
+  }
   .portfolio .about .skills .soft-skills {
-    position: relative;
     font-weight: bold;
-    color: green;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 20px 60px 0 20px;
-    font-size: 20px;
+    margin-right: 250px;
+    font-size: 10px;
+    width: 250px;
     background-color: #dfd9d9;
   }
   .portfolio .about .skills .soft-skills h3 {
     padding-top: 1%;
     color: #d2691e;
-    font-size: 25px;
+    font-size: 22px;
   }
-  .portfolio .about .skills .soft-skills h3 .ul {
+  .portfolio .about .skills .soft-skills ul {
     color: #191919;
+    padding-left: 0px;
   }
-  .portfolio .projects {
+  .projects {
     width: 100%;
     background-size: 100% 100%;
     height: 1350vh;
   }
-  .portfolio .projects .project-container {
+  .projects .project-container {
     display: -ms-grid;
     display: grid;
     gap: 50px;
@@ -734,22 +744,32 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .portfolio .projects .project-container .card {
-    margin-right: 350px;
-    width: 30%;
+  .projects .project-container .card {
+    margin-right: 110px;
+    width: 27%;
   }
-  .portfolio .projects .project-container .card .card-body {
-    height: 120%;
+  .projects .project-container .card .card-description {
+    margin-left: 7px;
+    font-size: 14px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
-  .portfolio .projects .project-container .card .card-body .info {
+  .projects .project-container .card .card-description .card-description1 {
+    font-size: 13px;
+  }
+  .projects .project-container .card .card-body {
+    height: 130%;
+  }
+  .projects .project-container .card .card-body .info {
     color: #191919;
-    font-size: 15px;
-    padding-top: 20px;
-    height: 650px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 11px;
+    padding-top: 8px;
+    height: 450px;
+    margin-left: 7px;
+    margin-right: 3px;
   }
-  .portfolio .projects .project-container .card .card-body .info2 {
+  .projects .project-container .card .card-body .info2 {
     color: #191919;
     padding-top: 20px;
     font-size: 15px;
@@ -757,7 +777,7 @@
     margin-left: 20px;
     margin-right: 20px;
   }
-  .portfolio .projects .project-container .card .card-body .info3456 {
+  .projects .project-container .card .card-body .info3456 {
     color: #191919;
     padding-top: 20px;
     font-size: 15px;
@@ -765,38 +785,38 @@
     margin-right: 20px;
     height: 650px;
   }
-  .portfolio .projects .project-container .card .card-body .card-link,
-  .portfolio .projects .project-container .card .card-body .card-link2 {
+  .projects .project-container .card .card-body .card-link,
+  .projects .project-container .card .card-body .card-link2 {
     width: 30px;
     font-size: 15px;
   }
-  .portfolio #contact {
+  #contact {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     margin-top: 20px;
     margin-left: 2px;
   }
-  .portfolio #contact .contact {
+  #contact .contact {
     margin-right: 10px;
   }
-  .portfolio #contact .text {
+  #contact .text {
     width: 50%;
     font-size: 15px;
     margin-left: 80px;
     margin-bottom: 1%;
   }
-  .portfolio #contact .contact-icons-container {
+  #contact .contact-icons-container {
     width: 14%;
     height: 1%;
     margin-bottom: 70px;
     margin-left: 100px;
   }
-  .portfolio #contact .contact-icons-container a {
+  #contact .contact-icons-container a {
     margin: 30px 30px 10px;
     color: white;
   }
-  .portfolio #contact .contact-form {
+  #contact .contact-form {
     width: 90%;
     height: 570px;
     margin-top: 6%;
@@ -811,7 +831,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .portfolio #contact .contact-form .input-fields {
+  #contact .contact-form .input-fields {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -822,23 +842,23 @@
     width: 270px;
     padding: 20px;
   }
-  .portfolio #contact .contact-form .input-fields,
-  .portfolio #contact .contact-form .content {
+  #contact .contact-form .input-fields,
+  #contact .contact-form .content {
     width: 100%;
   }
-  .portfolio #contact .contact-form .input-fields input,
-  .portfolio #contact .contact-form .input-fields textarea,
-  .portfolio #contact .contact-form .content input,
-  .portfolio #contact .contact-form .content textarea {
+  #contact .contact-form .input-fields input,
+  #contact .contact-form .input-fields textarea,
+  #contact .contact-form .content input,
+  #contact .contact-form .content textarea {
     margin: 10px 0;
     width: 100%;
   }
-  .portfolio #contact .contact-form .input-fields textarea,
-  .portfolio #contact .contact-form .content textarea {
+  #contact .contact-form .input-fields textarea,
+  #contact .contact-form .content textarea {
     height: 100px;
   }
-  .portfolio #contact .contact-form .input-fields .button,
-  .portfolio #contact .contact-form .content .button {
+  #contact .contact-form .input-fields .button,
+  #contact .contact-form .content .button {
     width: 40%;
     -webkit-box-align: center;
         -ms-flex-align: center;
