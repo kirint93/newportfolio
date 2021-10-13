@@ -3,6 +3,10 @@
 const theYear = new Date();
 document.getElementById("year").innerHTML =`${theYear.getFullYear()}`;
 
+ const p = document.getElementById("pythonTitle")
+ p.style.marginLeft
+ p. style.font= "12px";
+
 
 // scrollButton
 const scrollButton = document.querySelector("#scrollButton");
@@ -16,8 +20,3 @@ scrollButton.addEventListener("click", () => {
 });
 
 document.getElementById("clickableTitle")
-
-
-function changeProjects() {
-
-}

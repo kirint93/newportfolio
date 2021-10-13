@@ -80,7 +80,7 @@
   text-align: center;
   color: #dfd9d9;
   font-size: 45px;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   padding-left: 0;
   line-break: 0;
@@ -131,7 +131,7 @@
 }
 
 .portfolio .about {
-  height: 240vh;
+  height: 340vh;
   width: 100%;
   overflow: hidden;
   border-bottom: 5px solid white;
@@ -167,9 +167,11 @@
   padding-left: 5px;
   padding-right: 5px;
   color: #191919;
+  height: 200vh;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  border-bottom: 5px solid white;
 }
 
 .portfolio .skills h3 {
@@ -191,7 +193,15 @@
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-weight: bold;
+}
+
+.portfolio .skills .icon div {
+  text-align: center;
+  padding: 30px;
+}
+
+.portfolio .skills .iconName {
+  color: white;
 }
 
 .portfolio .skills h4 {
@@ -200,6 +210,32 @@
   margin-top: 0%;
   margin-left: 450px;
   font-size: 25px;
+}
+
+.portfolio .skills .skillsExposed {
+  width: 100%;
+}
+
+.portfolio .skills .skillsExposed .exposure {
+  color: #d2691e;
+  margin-left: 1px;
+  font-size: 23px;
+}
+
+.portfolio .skills .skillsExposed .icon2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 500px;
+  padding-top: 1%;
+}
+
+.portfolio .skills .skillsExposed .name {
+  color: white;
 }
 
 .portfolio .skills .soft-skills {
@@ -311,7 +347,7 @@
 .portfolio .projects .card-body .info2 {
   color: #191919;
   padding-top: 20px;
-  height: 290px;
+  height: 250px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -366,7 +402,7 @@
   height: 300px;
 }
 
-.portfolio .text {
+.portfolio #contact .text {
   background-color: white;
   text-align: center;
   display: -webkit-inline-box;
@@ -380,7 +416,7 @@
   width: 30%;
 }
 
-.portfolio .contact-icons-container {
+.portfolio #contact .contact-icons-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -396,14 +432,14 @@
   margin-left: 600px;
 }
 
-.portfolio .contact-icons-container a {
-  margin: 50px 50px 1px;
+.portfolio #contact .contact-icons-container a {
+  margin: 20px 20px 1px;
 }
 
-.contact-form {
+.portfolio #contact .contact-form {
   background-color: grey;
   width: 40%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   margin-top: 1%;
   margin-left: 420px;
   padding: 3px;
@@ -417,7 +453,7 @@
           flex-direction: column;
 }
 
-.contact-form .input-fields {
+.portfolio #contact .contact-form .input-fields {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,15 +466,15 @@
   padding: 20px;
 }
 
-.contact-form .input-fields,
-.contact-form .content {
+.portfolio #contact .contact-form .input-fields,
+.portfolio #contact .contact-form .content {
   width: 100%;
 }
 
-.contact-form .input-fields input,
-.contact-form .input-fields textarea,
-.contact-form .content input,
-.contact-form .content textarea {
+.portfolio #contact .contact-form .input-fields input,
+.portfolio #contact .contact-form .input-fields textarea,
+.portfolio #contact .contact-form .content input,
+.portfolio #contact .contact-form .content textarea {
   margin: 10px 0;
   background-color: transparent;
   border: 0;
@@ -448,48 +484,48 @@
   width: 100%;
 }
 
-.contact-form .input-fields input::-webkit-input-placeholder,
-.contact-form .input-fields textarea::-webkit-input-placeholder,
-.contact-form .content input::-webkit-input-placeholder,
-.contact-form .content textarea::-webkit-input-placeholder {
+.portfolio #contact .contact-form .input-fields input::-webkit-input-placeholder,
+.portfolio #contact .contact-form .input-fields textarea::-webkit-input-placeholder,
+.portfolio #contact .contact-form .content input::-webkit-input-placeholder,
+.portfolio #contact .contact-form .content textarea::-webkit-input-placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input:-ms-input-placeholder,
-.contact-form .input-fields textarea:-ms-input-placeholder,
-.contact-form .content input:-ms-input-placeholder,
-.contact-form .content textarea:-ms-input-placeholder {
+.portfolio #contact .contact-form .input-fields input:-ms-input-placeholder,
+.portfolio #contact .contact-form .input-fields textarea:-ms-input-placeholder,
+.portfolio #contact .contact-form .content input:-ms-input-placeholder,
+.portfolio #contact .contact-form .content textarea:-ms-input-placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input::-ms-input-placeholder,
-.contact-form .input-fields textarea::-ms-input-placeholder,
-.contact-form .content input::-ms-input-placeholder,
-.contact-form .content textarea::-ms-input-placeholder {
+.portfolio #contact .contact-form .input-fields input::-ms-input-placeholder,
+.portfolio #contact .contact-form .input-fields textarea::-ms-input-placeholder,
+.portfolio #contact .contact-form .content input::-ms-input-placeholder,
+.portfolio #contact .contact-form .content textarea::-ms-input-placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input::placeholder,
-.contact-form .input-fields textarea::placeholder,
-.contact-form .content input::placeholder,
-.contact-form .content textarea::placeholder {
+.portfolio #contact .contact-form .input-fields input::placeholder,
+.portfolio #contact .contact-form .input-fields textarea::placeholder,
+.portfolio #contact .contact-form .content input::placeholder,
+.portfolio #contact .contact-form .content textarea::placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input :required,
-.contact-form .input-fields textarea :required,
-.contact-form .content input :required,
-.contact-form .content textarea :required {
+.portfolio #contact .contact-form .input-fields input :required,
+.portfolio #contact .contact-form .input-fields textarea :required,
+.portfolio #contact .contact-form .content input :required,
+.portfolio #contact .contact-form .content textarea :required {
   border-color: #f5f5f5;
 }
 
-.contact-form .input-fields textarea,
-.contact-form .content textarea {
+.portfolio #contact .contact-form .input-fields textarea,
+.portfolio #contact .contact-form .content textarea {
   height: 210px;
 }
 
-.contact-form .input-fields .button,
-.contact-form .content .button {
+.portfolio #contact .contact-form .input-fields .button,
+.portfolio #contact .contact-form .content .button {
   width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -502,15 +538,15 @@
   cursor: pointer;
 }
 
-.contact-form .input-fields .button:hover,
-.contact-form .content .button:hover {
+.portfolio #contact .contact-form .input-fields .button:hover,
+.portfolio #contact .contact-form .content .button:hover {
   border: 2px solid #dfd9d9;
 }
 
-footer {
+.portfolio footer {
   width: 100%;
   height: 50px;
-  margin: 40% 0 0%;
+  margin: 80% 0 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -525,7 +561,7 @@ footer {
   border: none;
 }
 
-footer p {
+.portfolio footer p {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -537,7 +573,7 @@ footer p {
   margin-left: 20px;
 }
 
-footer #year {
+.portfolio footer #year {
   color: #dfd9d9;
 }
 
