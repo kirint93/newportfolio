@@ -174,7 +174,6 @@ $margin: 10px;
     color: $Tertiary-color;
     height: 200vh;
     width: fit-content;
-    border-bottom: 5px solid white;
 
     h3 {
       color: $primary-color;
@@ -220,7 +219,7 @@ $margin: 10px;
         flex-direction: row;
         // padding-right: 280px;
         // justify-content: space-evenly;
-        margin-left: 500px;
+        margin-left: 400px;
         padding-top: 1%;
       }
 
@@ -249,28 +248,25 @@ $margin: 10px;
       }
     }
   }
-  .plus {
-    color: $color;
-    margin-top: 2px;
-  }
+  .title{
+  padding-bottom: 30px;
 
-  #clickableTitle {
-    margin-top: 0px;
   }
   .projects {
-    height: 850vh;
+    height: 1150vh;
     background-size: 100% 100%;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 2%;
 
     .project-container {
-      padding-bottom: 1%;
+      padding-bottom: 2%;
       display: grid;
       width: 80%;
 
       grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
+      gap: 120px;
       margin: auto;
+
       //margin-top: 20px;
     }
 
@@ -280,6 +276,8 @@ $margin: 10px;
       border-radius: 10px;
       width: 100%;
       height: fit-content;
+      // margin-bottom: 30%;
+
 
       padding-bottom: 1px;
     }
@@ -297,6 +295,11 @@ $margin: 10px;
         font-family: bold;
         font-family: sans-serif;
         text-transform: capitalize;
+      }
+
+      #python {
+        margin-left: 43px;
+        line-height: 2;
       }
       .card-title2 {
         margin-left: 2px;
@@ -324,7 +327,7 @@ $margin: 10px;
       .info {
         color: $Tertiary-color;
         padding-top: 20px;
-        height: 290px;
+        height: 65vh;
         margin-left: 20px;
         margin-right: 20px;
         font-size: 14px;
@@ -333,7 +336,7 @@ $margin: 10px;
       .info2 {
         color: $Tertiary-color;
         padding-top: 20px;
-        height: 250px;
+        height: 60vh;
         margin-left: 20px;
         margin-right: 20px;
       }
@@ -342,23 +345,32 @@ $margin: 10px;
         padding-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
-        height: 173px;
+        height: 40vh;
 
         &:hover {
           opacity: 1;
         }
       }
 
-      .card-link {
+      .card-link, .card-link2{
+
         text-decoration: none;
-        border: 2px solid $color;
+        border: 2px solid $primary-color;
         border-radius: 6px;
-        padding: 3px 3px 3px;
-        background-color: #078907;
-        color: #000;
+        padding: 5px 3px 3px;
+        background-color: $Tertiary-color;
+        color: #ffffff;
         font-size: 20px;
+        width: fit-content;
+
 
         margin-left: 12%;
+
+      }
+
+      .card-link2{
+        pointer-events: none ;
+        cursor: default;
       }
     }
   }
@@ -551,7 +563,9 @@ $margin: 10px;
         margin-right: 0;
         padding-left: 10px;
       }
-
+      .icon2 {
+        margin-left: 200px;
+      }
       .soft-skills {
         width: 260px;
         margin-right: 58px;
