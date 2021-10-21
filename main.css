@@ -145,22 +145,34 @@
 }
 
 .portfolio .about .about-me {
-  text-align: center;
   font-weight: bold;
   position: relative;
-  margin-left: 50px;
+  width: 650px;
+  height: 300px;
+  margin-left: 250px;
   margin-right: 50px;
   margin-bottom: 80px;
   background-color: whitesmoke;
+  line-height: 120px;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+.portfolio .about .about-me h5 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
 }
 
 .portfolio .about .about-me li {
   margin: 10px;
   color: #191919;
-  font-size: 19px;
+  font-size: 18px;
   margin-left: 0px;
   list-style: none;
   padding: 0px;
+  word-spacing: 2px;
 }
 
 .portfolio .about .skills {
