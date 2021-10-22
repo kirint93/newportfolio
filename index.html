@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <title>Home Page</title>
 </head>
 
@@ -169,8 +170,7 @@
 
           <h4 class="card-title">Punk API</h4>
           <img src="./images/beer (4).jpg" alt="beer" class="project-pic">
-          <p class="card-description">React JS, Firebase, SASS, Jest(Unit testing)</p>
-
+          <p class="card-description1">React JS, JSON, Firebase, SASS, Jest(unit testing)</p>
           <p class="info2">One of the first React projects I built. The App uses the Punk API (Brewdog Beer) and
             is somewhere you can search and filter beers. There are two pages:
             a landing page to login to the app as well as a home page where you can search and filter for beers.</p>
@@ -203,7 +203,7 @@
           <div class="card-text">
             <h4 class="card-title"> Countdown Timer </h4>
             <img src="./images/desktop-design.jpg" alt="countdown timer" class="project-pic">
-            <p class="card-description"> HTML5, SCSS, JS</p>
+            <p class="card-description"> HTML5, SASS, JS</p>
             </p>
             <p class="info3456"> A Frontend Mentor challenge to build a countdown timer </p>
             <div class="card-links">
@@ -220,7 +220,7 @@
 
             <h4 class="card-title" id="python">Coming Soon- Django portfolio</h4>
             <img src="./images/portfolio.png" alt="countdown timer" class="project-pic">
-            <p class="card-description"> Python/Django + HTML5, SCSS, JS</p>
+            <p class="card-description"> Python/Django + HTML5, SASS, JS</p>
             </p>
             <p class="info3456"> Built a MVC(Modal view controller) version my portfolio using <b>Django(Python)</b>.</p>
             <div class="card-links">
@@ -238,7 +238,7 @@
           <div class="card-text">
             <h4 class="card-title">Weather App</h4>
             <img src="./images/weather.jpg " alt="weather" class="project-pic">
-            <p class="card-description">React JS, Firebase, SASS</p>
+            <p class="card-description">React JS, JSON, Firebase, SASS</p>
             <p class="info3456"> Very simple react app that allows you to search for the current weather
               in cities across the globe.</p>
             <div class="card-links">
@@ -295,6 +295,8 @@
         <a href="mailto:kirinthapar@yandex.com"><span class="fas fa-envelope fa-3x" style="color: white;"></span></a>
       </div>
       <form action="https://getform.io/f/9a789bdb-b13b-4d2c-8fcb-dafbf7b50f77" method="POST" class="contact-form">
+        <div class="g-recaptcha" data-sitekey="6LdZ--gcAAAAAHxD6bCd1RiJ8ZnOMYzLz41TOqAe"></div>
+
         <section class="input-fields">
 
           <input type="text" name="name" aria-label="name" placeholder="Name" required>
@@ -308,6 +310,7 @@
         <section class="content">
           <textarea name="message" aria-label="message" required>Please enter a message...</textarea>
           <input type="submit" value="Submit" class="button">
+
         </section>
       </form>
 

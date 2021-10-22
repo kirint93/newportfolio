@@ -145,22 +145,23 @@
 }
 
 .portfolio .about .about-me {
-  font-weight: bold;
+  text-align: center;
   position: relative;
   width: 650px;
   height: 300px;
-  margin-left: 250px;
-  margin-right: 50px;
+  margin-left: 300px;
   margin-bottom: 80px;
   background-color: whitesmoke;
   line-height: 120px;
   padding-left: 8px;
+  font-size: 12px;
   padding-top: 3px;
 }
 
 .portfolio .about .about-me h5 {
   font-weight: bold;
   text-decoration: underline;
+  color: #191919;
   font-size: 20px;
   text-align: center;
 }
@@ -343,9 +344,25 @@
 }
 
 .portfolio .projects .card-body .card-description {
-  margin-left: 15%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 130px;
+}
+
+.portfolio .projects .card-body .card-description, .portfolio .projects .card-body .card-description1 {
+  font-size: 15px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  line-height: 1;
   color: #191919;
+}
+
+.portfolio .projects .card-body .card-description1 {
+  overflow: hidden;
+  margin-left: 10px;
+  white-space: nowrap;
+  width: 446.7px;
 }
 
 .portfolio .projects .card-body .info {

@@ -151,23 +151,25 @@ $Tertiary-color: #191919;
       border-radius: 20%;
     }
     .about-me {
-      // text-align: center;
-      font-weight: bold;
+      text-align: center;
+
       position: relative;
       width: 650px;
       height: 300px;
-      margin-left: 250px;
-      margin-right: 50px;
+      margin-left: 300px;
       margin-bottom: 80px;
       background-color: whitesmoke;
       line-height: 120px;
       padding-left: 8px;
+      font-size: 12px;
       padding-top: 3px;
 
 
        h5{
          font-weight: bold;
          text-decoration: underline;
+
+         color: $Tertiary-color;
          font-size: 20px;
          text-align: center;
        }
@@ -336,11 +338,32 @@ $Tertiary-color: #191919;
       }
 
       .card-description {
-        margin-left: 15%;
+          width: max-content;
+margin-left: 130px;
+      }
+      .card-description, .card-description1 {
+
+        font-size: 15px;
         font-weight: bold;
+        border-bottom: 1px solid black;
+// border-bottom-width: 50%;
+line-height: 1;
+
 
         color: $Tertiary-color;
       }
+.card-description1{
+  overflow: hidden;
+  margin-left: 10px;
+white-space: nowrap;
+  width: 446.7px;
+
+
+}
+
+
+
+
       .info {
         color: $Tertiary-color;
         padding-top: 20px;
