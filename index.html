@@ -9,7 +9,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <script>
+    const  onSubmit = (token) => {
+      console.log('success!');
+    };
+
+    const onloadCallback = () => {
+      grecaptcha.render('submit', {
+        'sitekey' : "6LdZ--gcAAAAAHxD6bCd1RiJ8ZnOMYzLz41TOqAe" ,
+        'callback' : onSubmit
+      });
+    };
+</script>
+
   <title>Home Page</title>
 </head>
 
@@ -295,7 +308,7 @@
         <a href="mailto:kirinthapar@yandex.com"><span class="fas fa-envelope fa-3x" style="color: white;"></span></a>
       </div>
       <form action="https://getform.io/f/9a789bdb-b13b-4d2c-8fcb-dafbf7b50f77" method="POST" class="contact-form">
-        <div class="g-recaptcha" data-sitekey="6LdZ--gcAAAAAHxD6bCd1RiJ8ZnOMYzLz41TOqAe"></div>
+
 
         <section class="input-fields">
 
@@ -313,7 +326,9 @@
 
         </section>
       </form>
-
+      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async defer>
+  </script>
     </section>
 
 
