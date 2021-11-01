@@ -231,7 +231,7 @@
 .portfolio .about .skills .skillsExposed .exposure {
   color: #d2691e;
   margin-left: 1px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .portfolio .about .skills .skillsExposed .icon2 {
@@ -242,12 +242,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 400px;
-  padding-top: 1%;
+  margin-left: 350px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.portfolio .about .skills .skillsExposed .name {
+.portfolio .about .skills .skillsExposed .icon2 i {
+  font-size: 80px;
+  line-height: 0.2;
+  margin-bottom: 0;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 .name {
   color: white;
+  font-size: 18px;
+}
+
+.portfolio .about .skills h3 {
+  padding-top: 1%;
+  color: #d2691e;
+  font-size: 25px;
 }
 
 .portfolio .about .skills .soft-skills {
@@ -261,13 +275,7 @@
   background-color: white;
 }
 
-.portfolio .about .skills .soft-skills h3 {
-  padding-top: 1%;
-  color: #d2691e;
-  font-size: 25px;
-}
-
-.portfolio .about .skills .soft-skills h3 .ul {
+.portfolio .about .skills .soft-skills .ul {
   color: #191919;
 }
 
@@ -309,7 +317,7 @@
 
 .portfolio .projects .card-body {
   width: 100%;
-  height: 120%;
+  height: 10%;
   background-color: white;
 }
 
@@ -320,11 +328,6 @@
   font-family: bold;
   font-family: sans-serif;
   text-transform: capitalize;
-}
-
-.portfolio .projects .card-body #python {
-  margin-left: 43px;
-  line-height: 2;
 }
 
 .portfolio .projects .card-body .card-title2 {
@@ -350,7 +353,8 @@
   margin-left: 130px;
 }
 
-.portfolio .projects .card-body .card-description, .portfolio .projects .card-body .card-description1 {
+.portfolio .projects .card-body .card-description,
+.portfolio .projects .card-body .card-description1 {
   font-size: 15px;
   font-weight: bold;
   border-bottom: 1px solid black;
@@ -387,31 +391,21 @@
   padding-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 40vh;
+  height: 45vh;
 }
 
-.portfolio .projects .card-body .info3456:hover {
-  opacity: 1;
-}
-
-.portfolio .projects .card-body .card-link,
-.portfolio .projects .card-body .card-link2 {
+.portfolio .projects .card-body .card-link {
   text-decoration: none;
   border: 2px solid #d2691e;
   border-radius: 6px;
   padding: 5px 3px 3px;
   background-color: #191919;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin-left: 12%;
-}
-
-.portfolio .projects .card-body .card-link2 {
-  pointer-events: none;
-  cursor: default;
 }
 
 .portfolio #scrollButton {
@@ -703,8 +697,22 @@
             flex-direction: row;
   }
   .portfolio .about .skills .soft-skills {
-    width: 260px;
-    margin-right: 58px;
+    position: relative;
+    font-weight: bold;
+    color: #191919;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px 60px 0 20px;
+    font-size: 20px;
+    background-color: #dfd9d9;
+  }
+  .portfolio .about .skills .soft-skills h3 {
+    padding-top: 1%;
+    color: #d2691e;
+    font-size: 25px;
+  }
+  .portfolio .about .skills .soft-skills h3 .ul {
+    color: #191919;
   }
   .portfolio .projects {
     width: 100%;
