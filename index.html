@@ -1,174 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/1782d53993.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 
-<head>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://kit.fontawesome.com/1782d53993.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <body class="portfolio">
+    <header>
+      <nav>
+        <img src="./images/logo.png" alt="my-logo" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <a href="index.html">Home</a>
+        <a href="#about-me">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact me</a>
+      </nav>
+    </header>
 
-  <script>
-    const  onSubmit = (token) => {
-      console.log('success!');
-    };
-
-    const onloadCallback = () => {
-      grecaptcha.render('submit', {
-        'sitekey' : "6LdZ--gcAAAAAHxD6bCd1RiJ8ZnOMYzLz41TOqAe" ,
-        'callback' : onSubmit
-      });
-    };
-</script>
-
-  <title>Home Page</title>
-</head>
-
-<body class="portfolio">
-  <header>
-    <nav>
-      <img src="./images/logo.png" alt="my-logo" />
-
-      <a href="index.html">Home</a>
-      <a href="#about-me">About me</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact me</a>
-    </nav>
-  </header>
-
-  <section class="home">
-    <section class="intro" data-aos="fade-down" data-aos-duration="1500">
+    <section class="home">
+        <section class="intro" data-aos="fade-down" data-aos-duration="1500">
 
 
-      <div class="text-wrapper">
-        <h1>Kirin</h1>
-        <h1>Thapar</h1>
-        <h6>Junior Software Developer</h6>
-        <!-- <input
-              type="button"
-              class="contact"
-              onclick="location.href='#contact'"
-              value="Contact me "
-            /> -->
+          <div class="text-wrapper">
+            <h1>Kirin</h1> <h1>Thapar</h1>
+            <h6>Junior Software Developer</h6>
+       
 
-      </div>
-    </section>
-  </section>
-  <section class="about">
+          </div>
+        </section>
+      </section>
+    <section class="about">
 
-    <section id="about-me">
+        <section id="about-me">
 
-      <h2>About Me</h2>
-      <img class="me" src="./images/Kirin_Thapar.png" alt="me">
-      <ul class="about-me">
-          <h5>About</h5>
-        <li> My name is Kirin Thapar, an aspiring software developer. I have recently
-           completed an intensive Full-stack software development Bootcamp with _nology.
-            From which I  developed  the key  programming skills and knowledge
-           to  build several solo and group projects using a range of different
-            programming languages.</li>
+          <h2>About Me</h2>
+          <img  class="me"  src="./images/Kirin_Thapar.png" alt="me">
+        <ul class="about-me">
+
+              <li> My name is Kirin Thapar and aspiring software developer who has   discovered a passion for coding  .
+                I have a  masters degree in Geography and my previous role was in
+                 worked in digital marketing.<br>  I  recently completed an  intensive software
+                Bootcamp with _nology  which covered  current fundamentals of software development
+                 and I  am now looking for a role as a junior software developer.</li>
 
 
-      </ul>
-    </section>
+          </ul>
+         </section>
 
 
 
-    <section class="skills">
-      <div class="headers">
+      <section class="skills">
+        <div class="headers">
         <h2> My Skills</h2>
         <h3>Tech Skills</h3>
       </div>
-      <div class="icon">
-        <div>
-          <span title="HTML5" class="fab fa-html5 fa-3x" style="color:white;"></span>
-          <p class="iconName">HTML5</p>
-        </div>
-        <div>
-          <span title="CSS3" class="fab fa-css3-alt fa-3x" style="color:white;"></span>
-          <p class="iconName">CSS3</p>
-        </div>
-        <div>
-          <span title="SASS" class="fab fa-sass fa-3x" style="color:white;"></span>
-          <p class="iconName">Sass</p>
-        </div>
-        <div>
-          <span title="JavaScript" class="fab fa-js fa-3x" style="color:white;" s></span>
-          <p class="iconName">JavaScript</p>
-        </div>
-        <div>
-          <span title="Github" class="fab fa-github fa-3x" style="color:white;"></span>
-          <p class="iconName">GitHub</p>
-        </div>
-        <div>
-          <span title="npm" class="fab fa-npm fa-3x" style="color:white;"></span>
-          <p class="iconName">npm</p>
-        </div>
-        <div>
-          <span title="React" class="fab fa-react fa-3x " style="color:white;"></span>
-          <p class="iconName">React</p>
-        </div>
-        <div>
-          <span title="Node.js" class="fab fa-node-js fa-3x" style="color:white;"></span>
-          <p class="iconName">Node.js</p>
-
-        </div>
-        <div class="skillsExposed">
-          <h5 class="exposure"> An exposure to</h5>
-          <div class="icon2">
-
-            <div class="first">
-              <span title="Python" class="fab fa-python fa-3x" style="color:white;"></span>
-              <p class="name">Python</p>
-            </div>
-            <div class="Django">
-              <i class="devicon-django-plain" style="color:white;"></i>
-            <p class="name">Django</p>
-            </div>
-            <div class="mysql">
-              <i class="devicon-mysql-plain-wordmark colored" style="color:white;"></i>
-            <p class="name">MySQL</p>
-            </div>
-
-            <div>
-              <span title="figma" class="fab fa-figma fa-3x" style="color:white;"></span>
-              <p class="name">Figma</p>
-            </div>
+          <div class="icon">
+          <div>
+            <span title="HTML5" class="fab fa-html5 fa-3x"style="color:white;"></span>
+            <p class="iconname">HTML5</p>
+          </div>
+          <div>
+            <span title="CSS3" class="fab fa-css3-alt fa-3x"style="color:white;"></span>
+            <p class="iconname">CSS3</p>
+          </div>
+          <div>
+            <span title="SASS" class="fab fa-sass fa-3x"style="color:white;"></span>
+            <p class="iconname">Sass</p>
+          </div>
+          <div>
+            <span title="JavaScript" class="fab fa-js fa-3x"style="color:white;"s></span>
+            <p class="iconname">JavaScript</p>
+          </div>
+          <div>
+            <span title="Github" class="fab fa-github fa-3x"style="color:white;"></span>
+            <p class="iconname">GitHub</p>
+          </div>
+          <div>
+            <span title="npm" class="fab fa-npm fa-3x"style="color:white;"></span>
+            <p class="iconname">npm</p>
+          </div>
+          <div>
+            <span title="React" class="fab fa-react fa-3x "style="color:white;"></span>
+            <p class="iconname">React</p>
+          </div>
+          <div>
+            <span title="Node.js" class="fab fa-node-js fa-3x"style="color:white;"></span>
+            <p class="iconname">Node.js</p>
 
           </div>
-        </div>
- <h3>Soft Skills</h3>
-
-        <div class="soft-skills">
-          <ul><span class="fas fa-check"></span> Leadership through Agile project managment using tools including
-            Trello, which I used whilst delivering <br> Happy App (client's commercial project).</ul>
-          <ul> <span class="fas fa-check"></span> Reliable team player via pair-programming, collaboration and group
-            work.</ul>
-          <ul><span class="fas fa-check"></span> Strong communicator and public speaker as well as good listener.</ul>
-          <ul> <span class="fas fa-check"></span> Desire to learn from others, in order to improve both my technical and
-            my soft skill set </ul>
 
 
-        </div>
+     <div class="soft-skills">
+       <h3>Soft Skills</h3>
 
+       <ul><span class= "fas fa-check"></span>  Leadership through Agile project managment  using  tools including
+       Trello, which I used  whilst delivering <br>   Happy App (client's commercial project).</ul>
+      <ul> <span class= "fas fa-check"></span> Reliable team player via  pair-programming, collaboration and group work.</ul>
+       <ul><span class= "fas fa-check"></span> Strong communicator and public speaker as well as good listener.</ul>
+       <ul> <span class= "fas fa-check"></span>   Desire to learn from others, in order to  improve both my technical and  my soft skill set </ul>
+
+
+
+      <div>
         <button id="scrollButton">
           <i class="material-icons"><i class="fas fa-arrow-alt-circle-up fa-3x"></i>
 
 
-        </button>
-
+      </button>
+      </section>
 
     </section>
-  </section>
-  <section class="projects">
-    <div class="title">
-    <h2>Development </h2>
 
-</div>
+    <section class="projects">
+      <div class="title">
+      <h2>Development </h2>
+
+          </div>
 
     <section class="project-container">
       <div class="card">
@@ -303,27 +262,23 @@
       </div>
 
     </section>
-  </section>
-    <section id="contact">
-      <h2 class="contact-header"> Contact Me</h2>
 
-      <p class="text">Get in touch via <br> the form or through Github, Linkedin or email icons below <br> and I will
-        get back to you as soon as possible</p>
-      <div class="contact-icons-container">
 
-        <a href="https://github.com/kirint93"><span class="fab fa-github fa-3x" id="github"
-            style="color:white;"></span></a>
-        <a href="https://www.linkedin.com/in/kirin-thapar-266a5bb1/"><span class="fab fa-linkedin fa-3x" id="linkedin"
-            style="color:white;"></span></a>
+<section id="contact">
+            <h2 class="contact"> Contact Me</h2>
+
+    <p class="text">Get in touch via <br>  the  form  or through Github, Linkedin or email icons below  <br> and I will get back to you as soon as possible</p>
+    <div class="contact-icons-container">
+
+        <a href="https://github.com/kirint93"><span class="fab fa-github fa-3x" id="github"  style="color:white;"></span></a>
+        <a href="https://www.linkedin.com/in/kirin-thapar-266a5bb1/"><span class="fab fa-linkedin fa-3x"  id="linkedin" style="color:white;"></span></a>
         <a href="mailto:kirinthapar@yandex.com"><span class="fas fa-envelope fa-3x" style="color: white;"></span></a>
       </div>
-      <form action="https://getform.io/f/9a789bdb-b13b-4d2c-8fcb-dafbf7b50f77" method="POST" class="contact-form">
-
-
+      <form action="https://getform.io/f/9a789bdb-b13b-4d2c-8fcb-dafbf7b50f77" method="POST" class="contact-form" >
         <section class="input-fields">
 
           <input type="text" name="name" aria-label="name" placeholder="Name" required>
-          <input type="email" name="email" aria-label="email" placeholder="Email" required>
+                <input type="email" name="email" aria-label="email" placeholder="Email" required>
 
           <input type="tel" name="phone" aria-label="phone number" placeholder="Phone Number">
 
@@ -331,31 +286,28 @@
         </section>
 
         <section class="content">
-          <textarea name="message" aria-label="message" required>Please enter a message...</textarea>
-          <input type="submit" value="Submit"  id="submit" class="button">
-
+         <textarea name="message" aria-label="message" required>Please enter a message...</textarea>
+          <input type="submit" value="Submit" class="button">
         </section>
       </form>
-      <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-      async defer>
-  </script>
+
+      </section>
     </section>
+        </main>
+        <footer>
+            <p class="copywright">Designed & built by Kirin Thapar &#169; <span id="year"></span></p>
+                  </footer>
 
-
-    <footer>
-      <p class="copywright">Designed & built by Kirin Thapar &#169; <span id="year"></span></p>
-    </footer>
-
+</section>
 </body>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-    delay: 30,
-    easing: "ease-in",
-    duration: 1000,
-  });
-</script>
-<script src="main.js"></script>
-
-</html>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          delay: 30,
+          easing: "ease-in",
+          duration: 1000,
+        });
+      </script>
+      <script src="main.js"></script>
+    </section>
+  </html>
