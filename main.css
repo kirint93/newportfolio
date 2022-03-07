@@ -3,7 +3,6 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #010101d7;
   font-size: 16px;
   font-family: "Source Code Pro", monospace;
   font-style: normal;
@@ -179,7 +178,6 @@
 .portfolio .about .skills {
   padding-left: 5px;
   padding-right: 5px;
-  color: #191919;
   height: 200vh;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -212,7 +210,7 @@
   padding: 30px;
 }
 
-.portfolio .about .skills .iconName {
+.portfolio .about .skills .iconname {
   color: white;
 }
 
@@ -222,40 +220,6 @@
   margin-top: 0%;
   margin-left: 450px;
   font-size: 25px;
-}
-
-.portfolio .about .skills .skillsExposed {
-  width: 100%;
-}
-
-.portfolio .about .skills .skillsExposed .exposure {
-  color: #d2691e;
-  margin-left: 1px;
-  font-size: 20px;
-}
-
-.portfolio .about .skills .skillsExposed .icon2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 350px;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.portfolio .about .skills .skillsExposed .icon2 i {
-  font-size: 80px;
-  line-height: 0.2;
-  margin-bottom: 0;
-}
-
-.portfolio .about .skills .skillsExposed .icon2 .name {
-  color: white;
-  font-size: 18px;
 }
 
 .portfolio .about .skills h3 {
@@ -286,48 +250,6 @@
 
 .portfolio .about .skills .iconName {
   color: white;
-}
-
-.portfolio .about .skills h4 {
-  color: #d2691e;
-  margin-bottom: 2%;
-  margin-top: 0%;
-  margin-left: 450px;
-  font-size: 25px;
-}
-
-.portfolio .about .skills .skillsExposed {
-  width: 100%;
-}
-
-.portfolio .about .skills .skillsExposed .exposure {
-  color: #d2691e;
-  margin-left: 1px;
-  font-size: 20px;
-}
-
-.portfolio .about .skills .skillsExposed .icon2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 350px;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.portfolio .about .skills .skillsExposed .icon2 i {
-  font-size: 80px;
-  line-height: 0.2;
-  margin-bottom: 0;
-}
-
-.portfolio .about .skills .skillsExposed .icon2 .name {
-  color: white;
-  font-size: 18px;
 }
 
 .portfolio .about .skills h3 {
