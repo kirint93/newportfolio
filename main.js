@@ -14,3 +14,5 @@ scrollButton.addEventListener("click", () => {
         behavior: "smooth",
     });
 });
+
+document.getElementById("clickableTitle")
