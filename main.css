@@ -4,8 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #010101d7;
-  font-size: 18px;
-  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
   font-style: normal;
   color: #191919;
   line-height: 40px;
@@ -13,9 +13,9 @@
 }
 
 .portfolio {
-  height: 240vh;
+  height: 220vh;
   width: 100%;
-  background-color: #dfd9d9;
+  background-color: #191919;
 }
 
 .portfolio nav {
@@ -30,7 +30,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   color: transparent;
   background-color: transparent;
   background-color: #d2691e;
@@ -67,24 +66,21 @@
   text-overflow: o;
   color: #dfd9d9;
   display: inline-block;
-  font-size: 48px;
-  font-family: "Poppins";
-  letter-spacing: 8px;
+  text-shadow: yellow 0px 0px 12px;
+  font-weight: 600;
+  font-size: 90px;
+  width: 310px;
+  letter-spacing: 7px;
+  margin-right: 20px;
   line-height: 70px;
-  margin-bottom: 0%;
-}
-
-.portfolio h1::first-letter {
-  font-size: 71px;
-  font-weight: bold;
-  color: #800080;
+  margin-bottom: 2%;
 }
 
 .portfolio h2 {
   text-align: center;
-  color: #191919;
+  color: #dfd9d9;
   font-size: 45px;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   padding-left: 0;
   line-break: 0;
@@ -97,15 +93,16 @@
 
 .portfolio h6 {
   color: #dfd9d9;
-  margin-top: 0%;
+  font-weight: bold;
+  text-shadow: yellow 0px 0px 10px;
+  margin-top: 2%;
   line-height: 15px;
   text-align: center;
-  font-size: 20px;
-  font-family: "Poppins";
+  font-size: 35px;
 }
 
 .portfolio .home {
-  background-image: url(./images/dark.png);
+  background-image: url(./images/background.jpg);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -114,6 +111,7 @@
   padding-bottom: 0px;
   overflow: hidden;
   margin-top: 0;
+  border-bottom: 5px solid white;
 }
 
 .portfolio .home .intro {
@@ -128,69 +126,73 @@
   margin-top: 7%;
 }
 
-.portfolio .home .intro .contact {
-  border: solid 2px #dfd9d9;
-  border-radius: 9px;
-  background-color: #000000;
-  color: #dfd9d9;
-  font-size: 23px;
-  height: 10vh;
-  width: 40%;
-  margin: 15px 90px;
-}
-
 .portfolio .home .intro .span h3 {
   font-size: 80px;
 }
 
 .portfolio .about {
-  height: 220vh;
+  height: 340vh;
   width: 100%;
   overflow: hidden;
+  border-bottom: 5px solid white;
 }
 
-.portfolio .me {
+.portfolio .about .me {
   margin-left: 440px;
   height: 20%;
   width: 30%;
   border-radius: 20%;
 }
 
-.portfolio .about-me {
+.portfolio .about .about-me {
   text-align: center;
-  font-weight: bold;
   position: relative;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 650px;
+  height: 300px;
+  margin-left: 300px;
   margin-bottom: 80px;
   background-color: whitesmoke;
+  line-height: 120px;
+  padding-left: 8px;
+  font-size: 12px;
+  padding-top: 3px;
 }
 
-.portfolio .about-me li {
+.portfolio .about .about-me h5 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #191919;
+  font-size: 20px;
+  text-align: center;
+}
+
+.portfolio .about .about-me li {
   margin: 10px;
   color: #191919;
-  font-size: 19px;
+  font-size: 18px;
   margin-left: 0px;
   list-style: none;
   padding: 0px;
+  word-spacing: 2px;
 }
 
-.portfolio .skills {
+.portfolio .about .skills {
   padding-left: 5px;
   padding-right: 5px;
   color: #191919;
+  height: 200vh;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.portfolio .skills h3 {
+.portfolio .about .skills h3 {
   color: #d2691e;
   margin-bottom: 2%;
   font-size: 25px;
 }
 
-.portfolio .skills .icon {
+.portfolio .about .skills .icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,10 +205,18 @@
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-weight: bold;
 }
 
-.portfolio .skills h4 {
+.portfolio .about .skills .icon div {
+  text-align: center;
+  padding: 30px;
+}
+
+.portfolio .about .skills .iconName {
+  color: white;
+}
+
+.portfolio .about .skills h4 {
   color: #d2691e;
   margin-bottom: 2%;
   margin-top: 0%;
@@ -214,65 +224,109 @@
   font-size: 25px;
 }
 
-.portfolio .skills .soft-skills {
+.portfolio .about .skills .skillsExposed {
+  width: 100%;
+}
+
+.portfolio .about .skills .skillsExposed .exposure {
+  color: #d2691e;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 350px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 i {
+  font-size: 80px;
+  line-height: 0.2;
+  margin-bottom: 0;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 .name {
+  color: white;
+  font-size: 18px;
+}
+
+.portfolio .about .skills h3 {
+  padding-top: 1%;
+  margin-bottom: 0;
+  color: #d2691e;
+  font-size: 25px;
+  margin-right: 100px;
+}
+
+.portfolio .about .skills .soft-skills {
   position: relative;
   font-weight: bold;
   color: #191919;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 20px 60px 0 60px;
+  margin: 50px 60px 0 20px;
   font-size: 20px;
   background-color: white;
 }
 
-.portfolio .skills .soft-skills h3 {
-  padding-top: 1%;
-  color: #d2691e;
-  font-size: 25px;
-}
-
-.portfolio .skills .soft-skills h3 .ul {
+.portfolio .about .skills .soft-skills .ul {
   color: #191919;
 }
 
+.portfolio .title {
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
 .portfolio .projects {
-  height: 570vh;
+  height: 930vh;
   background-size: 100% 100%;
-  padding-top: 20%;
-  padding-bottom: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .portfolio .projects .project-container {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   display: -ms-grid;
   display: grid;
   width: 80%;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 120px;
   margin: auto;
 }
 
 .portfolio .projects .card {
   border: 2px solid #cdd2d8;
+  -webkit-box-shadow: #dfd9d9 0px 0px 10px;
+          box-shadow: #dfd9d9 0px 0px 10px;
   border-radius: 10px;
-  width: 100%;
+  width: 50%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  margin-left: 300px;
   padding-bottom: 1px;
 }
 
 .portfolio .projects .card-body {
   width: 100%;
-  height: 120%;
+  height: 10%;
   background-color: white;
 }
 
 .portfolio .projects .card-body .card-title {
-  font-size: 30px;
+  font-size: 23px;
   color: #ff4500;
-  margin-left: 20%;
+  margin-left: 35%;
   font-family: bold;
   font-family: sans-serif;
   text-transform: capitalize;
@@ -295,23 +349,41 @@
 }
 
 .portfolio .projects .card-body .card-description {
-  margin-left: 15%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 130px;
+}
+
+.portfolio .projects .card-body .card-description,
+.portfolio .projects .card-body .card-description1 {
+  font-size: 15px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  line-height: 1;
   color: #191919;
+}
+
+.portfolio .projects .card-body .card-description1 {
+  overflow: hidden;
+  margin-left: 10px;
+  white-space: nowrap;
+  width: 446.7px;
 }
 
 .portfolio .projects .card-body .info {
   color: #191919;
   padding-top: 20px;
-  height: 250px;
+  height: 65vh;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 14px;
 }
 
 .portfolio .projects .card-body .info2 {
   color: #191919;
   padding-top: 20px;
-  height: 250px;
+  height: 60vh;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -321,21 +393,20 @@
   padding-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 150px;
-}
-
-.portfolio .projects .card-body .info3456:hover {
-  opacity: 1;
+  height: 45vh;
 }
 
 .portfolio .projects .card-body .card-link {
   text-decoration: none;
-  border: 2px solid #dfd9d9;
+  border: 2px solid #d2691e;
   border-radius: 6px;
-  padding: 3px 3px 3px;
-  background-color: #078907;
-  color: #000;
-  font-size: 20px;
+  padding: 5px 3px 3px;
+  background-color: #191919;
+  color: #ffffff;
+  font-size: 18px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-left: 12%;
 }
 
@@ -361,25 +432,30 @@
 }
 
 .portfolio #contact {
-  margin-top: 40px;
-  height: 300px;
+  border-top: 3px solid white;
+  margin-top: 80px;
+  height: 200px;
 }
 
-.portfolio .text {
+.portfolio #contact .contact-header {
+  margin-top: 30px;
+}
+
+.portfolio #contact .text {
   background-color: white;
   text-align: center;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-weight: bold;
-  margin-left: 480px;
+  margin-left: 420px;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 1%;
   width: 30%;
 }
 
-.portfolio .contact-icons-container {
+.portfolio #contact .contact-icons-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -392,19 +468,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-left: 600px;
+  margin-left: 500px;
 }
 
-.portfolio .contact-icons-container a {
-  margin: 50px 50px 1px;
+.portfolio #contact .contact-icons-container a {
+  margin: 30px 30px 1px;
 }
 
-.contact-form {
+.portfolio #contact .contact-form {
   background-color: grey;
   width: 40%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   margin-top: 1%;
-  margin-left: 420px;
+  margin-left: 380px;
   padding: 3px;
   border-radius: 5px;
   display: -webkit-box;
@@ -416,7 +492,7 @@
           flex-direction: column;
 }
 
-.contact-form .input-fields {
+.portfolio #contact .contact-form .input-fields {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,15 +505,15 @@
   padding: 20px;
 }
 
-.contact-form .input-fields,
-.contact-form .content {
+.portfolio #contact .contact-form .input-fields,
+.portfolio #contact .contact-form .content {
   width: 100%;
 }
 
-.contact-form .input-fields input,
-.contact-form .input-fields textarea,
-.contact-form .content input,
-.contact-form .content textarea {
+.portfolio #contact .contact-form .input-fields input,
+.portfolio #contact .contact-form .input-fields textarea,
+.portfolio #contact .contact-form .content input,
+.portfolio #contact .contact-form .content textarea {
   margin: 10px 0;
   background-color: transparent;
   border: 0;
@@ -447,48 +523,48 @@
   width: 100%;
 }
 
-.contact-form .input-fields input::-webkit-input-placeholder,
-.contact-form .input-fields textarea::-webkit-input-placeholder,
-.contact-form .content input::-webkit-input-placeholder,
-.contact-form .content textarea::-webkit-input-placeholder {
+.portfolio #contact .contact-form .input-fields input::-webkit-input-placeholder,
+.portfolio #contact .contact-form .input-fields textarea::-webkit-input-placeholder,
+.portfolio #contact .contact-form .content input::-webkit-input-placeholder,
+.portfolio #contact .contact-form .content textarea::-webkit-input-placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input:-ms-input-placeholder,
-.contact-form .input-fields textarea:-ms-input-placeholder,
-.contact-form .content input:-ms-input-placeholder,
-.contact-form .content textarea:-ms-input-placeholder {
+.portfolio #contact .contact-form .input-fields input:-ms-input-placeholder,
+.portfolio #contact .contact-form .input-fields textarea:-ms-input-placeholder,
+.portfolio #contact .contact-form .content input:-ms-input-placeholder,
+.portfolio #contact .contact-form .content textarea:-ms-input-placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input::-ms-input-placeholder,
-.contact-form .input-fields textarea::-ms-input-placeholder,
-.contact-form .content input::-ms-input-placeholder,
-.contact-form .content textarea::-ms-input-placeholder {
+.portfolio #contact .contact-form .input-fields input::-ms-input-placeholder,
+.portfolio #contact .contact-form .input-fields textarea::-ms-input-placeholder,
+.portfolio #contact .contact-form .content input::-ms-input-placeholder,
+.portfolio #contact .contact-form .content textarea::-ms-input-placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input::placeholder,
-.contact-form .input-fields textarea::placeholder,
-.contact-form .content input::placeholder,
-.contact-form .content textarea::placeholder {
+.portfolio #contact .contact-form .input-fields input::placeholder,
+.portfolio #contact .contact-form .input-fields textarea::placeholder,
+.portfolio #contact .contact-form .content input::placeholder,
+.portfolio #contact .contact-form .content textarea::placeholder {
   color: inherit;
 }
 
-.contact-form .input-fields input :required,
-.contact-form .input-fields textarea :required,
-.contact-form .content input :required,
-.contact-form .content textarea :required {
+.portfolio #contact .contact-form .input-fields input :required,
+.portfolio #contact .contact-form .input-fields textarea :required,
+.portfolio #contact .contact-form .content input :required,
+.portfolio #contact .contact-form .content textarea :required {
   border-color: #f5f5f5;
 }
 
-.contact-form .input-fields textarea,
-.contact-form .content textarea {
+.portfolio #contact .contact-form .input-fields textarea,
+.portfolio #contact .contact-form .content textarea {
   height: 210px;
 }
 
-.contact-form .input-fields .button,
-.contact-form .content .button {
+.portfolio #contact .contact-form .input-fields .button,
+.portfolio #contact .contact-form .content .button {
   width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -501,15 +577,15 @@
   cursor: pointer;
 }
 
-.contact-form .input-fields .button:hover,
-.contact-form .content .button:hover {
+.portfolio #contact .contact-form .input-fields .button:hover,
+.portfolio #contact .contact-form .content .button:hover {
   border: 2px solid #dfd9d9;
 }
 
-footer {
+.portfolio footer {
   width: 100%;
   height: 50px;
-  margin: 40% 0 0%;
+  margin-top: 73%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -524,7 +600,7 @@ footer {
   border: none;
 }
 
-footer p {
+.portfolio footer p {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -536,21 +612,29 @@ footer p {
   margin-left: 20px;
 }
 
-footer #year {
+.portfolio footer #year {
   color: #dfd9d9;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 736px) {
   .portfolio {
-    height: 280vh;
+    height: 680vh;
     width: 100%;
   }
   .portfolio h2 {
-    margin-left: 2px;
-    font-size: 24px;
+    margin-left: 1px;
+    font-size: 18px;
   }
   .portfolio nav {
+    width: 100%;
+    height: 60px;
+  }
+  .portfolio nav img {
     display: none;
+  }
+  .portfolio nav a {
+    font-size: 12px;
+    margin-left: 10px;
   }
   .portfolio .home {
     height: 150vh;
@@ -564,44 +648,93 @@ footer #year {
   .portfolio .home h1 h1::first-letter {
     font-size: 21px;
   }
+  .portfolio .home h2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .portfolio .home h6 {
     font-size: 16px;
     margin-right: 30px;
   }
   .portfolio .about {
-    height: 300vh;
+    height: 400vh;
   }
   .portfolio .about .me {
     width: 250px;
-    margin-left: 2px;
+    margin-left: 20px;
     height: 200px;
   }
   .portfolio .about .about-me {
     width: 250px;
-    margin-left: 1px;
+    margin-left: 10px;
     font-size: 10px;
+    height: 750px;
   }
-  .portfolio .about .icon {
+  .portfolio .about .skills {
+    height: 450vh;
+    width: 500px;
+  }
+  .portfolio .about .skills h2 {
+    margin-right: 250px;
+  }
+  .portfolio .about .skills h5 {
+    margin-right: 150px;
+  }
+  .portfolio .about .skills .icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 60%;
-    margin-left: 50px;
-    margin-right: 0;
-    padding-left: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
   }
-  .portfolio .about .soft-skills {
-    width: 260px;
-    margin-right: 58px;
+  .portfolio .about .skills .icon div {
+    padding-right: 1px;
   }
-  .portfolio .projects {
+  .portfolio .about .skills .skillsExposed {
+    width: 100%;
+  }
+  .portfolio .about .skills .skillsExposed .icon2 {
+    margin-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .portfolio .about .skills .skillsExposed .icon2 div {
+    padding-right: 1px;
+  }
+  .portfolio .about .skills h3 {
+    margin-right: 300px;
+  }
+  .portfolio .about .skills .soft-skills {
+    font-weight: bold;
+    margin-right: 250px;
+    font-size: 10px;
+    width: 250px;
+    background-color: #dfd9d9;
+  }
+  .portfolio .about .skills .soft-skills h3 {
+    padding-top: 1%;
+    color: #d2691e;
+    font-size: 22px;
+  }
+  .portfolio .about .skills .soft-skills ul {
+    color: #191919;
+    padding-left: 0px;
+  }
+  .projects {
     width: 100%;
     background-size: 100% 100%;
+    height: 1350vh;
   }
-  .portfolio .projects .project-container {
+  .projects .project-container {
     display: -ms-grid;
     display: grid;
-    gap: 30px;
+    gap: 50px;
     margin: auto;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -611,62 +744,84 @@ footer #year {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .portfolio .projects .project-container .card {
-    margin-bottom: 170px;
-    margin-right: 120px;
+  .projects .project-container .card {
+    margin-right: 110px;
+    width: 27%;
   }
-  .portfolio .projects .project-container .card .card-body {
-    height: 800px;
+  .projects .project-container .card .card-description {
+    margin-left: 7px;
+    font-size: 14px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
-  .portfolio .projects .project-container .card .card-body .info {
+  .projects .project-container .card .card-description .card-description1 {
+    font-size: 13px;
+  }
+  .projects .project-container .card .card-body {
+    height: 130%;
+  }
+  .projects .project-container .card .card-body .info {
     color: #191919;
-    padding-top: 20px;
+    font-size: 11px;
+    padding-top: 8px;
     height: 450px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 7px;
+    margin-right: 3px;
   }
-  .portfolio .projects .project-container .card .card-body .info2 {
+  .projects .project-container .card .card-body .info2 {
     color: #191919;
     padding-top: 20px;
-    height: 370px;
+    font-size: 15px;
+    height: 660px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .portfolio .projects .project-container .card .card-body .info3456 {
+  .projects .project-container .card .card-body .info3456 {
     color: #191919;
     padding-top: 20px;
+    font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
-    height: 250px;
+    height: 650px;
   }
-  .portfolio #contact {
-    height: 250px;
+  .projects .project-container .card .card-body .card-link,
+  .projects .project-container .card .card-body .card-link2 {
+    width: 30px;
+    font-size: 15px;
+  }
+  #contact {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     margin-top: 20px;
     margin-left: 2px;
   }
-  .portfolio #contact .contact {
+  #contact .contact {
     margin-right: 10px;
   }
-  .portfolio #contact .text {
+  #contact .text {
     width: 50%;
     font-size: 15px;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 1%;
   }
-  .portfolio #contact .contact-icons-container {
+  #contact .contact-icons-container {
     width: 14%;
     height: 1%;
     margin-bottom: 70px;
-    margin-left: 140px;
+    margin-left: 100px;
   }
-  .portfolio #contact .contact-icons-container a {
-    margin: 20px 20px 10px;
+  #contact .contact-icons-container a {
+    margin: 30px 30px 10px;
+    color: white;
   }
-  .portfolio #contact .contact-form {
-    width: 250px;
+  #contact .contact-form {
+    width: 90%;
+    height: 570px;
     margin-top: 6%;
-    margin-left: 60px;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 2px;
     border-radius: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -676,7 +831,7 @@ footer #year {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .portfolio #contact .contact-form .input-fields {
+  #contact .contact-form .input-fields {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -687,31 +842,30 @@ footer #year {
     width: 270px;
     padding: 20px;
   }
-  .portfolio #contact .contact-form .input-fields,
-  .portfolio #contact .contact-form .content {
+  #contact .contact-form .input-fields,
+  #contact .contact-form .content {
     width: 100%;
   }
-  .portfolio #contact .contact-form .input-fields input,
-  .portfolio #contact .contact-form .input-fields textarea,
-  .portfolio #contact .contact-form .content input,
-  .portfolio #contact .contact-form .content textarea {
+  #contact .contact-form .input-fields input,
+  #contact .contact-form .input-fields textarea,
+  #contact .contact-form .content input,
+  #contact .contact-form .content textarea {
     margin: 10px 0;
     width: 100%;
   }
-  .portfolio #contact .contact-form .input-fields textarea,
-  .portfolio #contact .contact-form .content textarea {
-    height: 210px;
+  #contact .contact-form .input-fields textarea,
+  #contact .contact-form .content textarea {
+    height: 100px;
   }
-  .portfolio #contact .contact-form .input-fields .button,
-  .portfolio #contact .contact-form .content .button {
-    width: 60%;
+  #contact .contact-form .input-fields .button,
+  #contact .contact-form .content .button {
+    width: 40%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 30px;
-  }
-  .portfolio footer {
-    display: none;
+    margin-left: 3px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 
@@ -732,6 +886,9 @@ footer #year {
 }
 
 @media screen and (min-width: 2400px) {
+  h3 {
+    margin-top: 20px;
+  }
   .icon {
     margin-left: 1200px;
   }
