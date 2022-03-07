@@ -16,8 +16,11 @@ scrollButton.addEventListener("click", () => {
 });
 
 document.getElementById("clickableTitle")
+<<<<<<< HEAD
 
 
 function changeProjects() {
 
 }
+=======
+>>>>>>> b39a5af8873a80c43fc93a7230e78750afc20e3e
