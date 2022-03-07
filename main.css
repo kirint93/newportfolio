@@ -259,6 +259,78 @@
 }
 
 .portfolio .about .skills h3 {
+  color: #d2691e;
+  margin-bottom: 2%;
+  font-size: 25px;
+}
+
+.portfolio .about .skills .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolio .about .skills .icon div {
+  text-align: center;
+  padding: 30px;
+}
+
+.portfolio .about .skills .iconName {
+  color: white;
+}
+
+.portfolio .about .skills h4 {
+  color: #d2691e;
+  margin-bottom: 2%;
+  margin-top: 0%;
+  margin-left: 450px;
+  font-size: 25px;
+}
+
+.portfolio .about .skills .skillsExposed {
+  width: 100%;
+}
+
+.portfolio .about .skills .skillsExposed .exposure {
+  color: #d2691e;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 350px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 i {
+  font-size: 80px;
+  line-height: 0.2;
+  margin-bottom: 0;
+}
+
+.portfolio .about .skills .skillsExposed .icon2 .name {
+  color: white;
+  font-size: 18px;
+}
+
+.portfolio .about .skills h3 {
   padding-top: 1%;
   margin-bottom: 0;
   color: #d2691e;
