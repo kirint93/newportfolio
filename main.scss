@@ -773,9 +773,14 @@ $Tertiary-color: #191919;
     }
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
   .headers {
     margin-left: 15%;
+  }
+
+  .me{
+    width: 200px;
+    margin: auto;
   }
   .icon {
     display: flex;
@@ -784,11 +789,48 @@ $Tertiary-color: #191919;
   }
 }
 
-@media screen and (min-width: 2400px) {
+@media screen and (max-width: 4500px) {
   h3 {
     margin-top: 20px;
   }
   .icon {
     margin-left: 1200px;
   }
+  h2{
+    margin-right: 20%;
+  }
+  #about-me{
+  width: auto;
+margin-left: 14%;
+height: 250vh;
+.me{
+  margin-right: 82%;
 }
+
+  }
+  .about-me{
+  margin-right: 80%;
+}
+
+.skills{
+ width: 100%;
+ margin-right: 500px;
+ margin-top: 2px;
+ .icon{
+  margin-left: 9px;
+}
+.skillsExposed{
+  margin-left: 10%;
+  
+}
+.soft-skills{
+  margin-top: 200px;
+}
+}
+.project-pic{
+  height: 300px;
+  width: 60%;
+}
+
+}
+
