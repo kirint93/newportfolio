@@ -44,6 +44,9 @@
   font-size: 25px;
   color: white;
 }
+.portfolio .text-wrapper {
+  margin-left: 300px;
+}
 .portfolio h1 {
   text-align: center;
   text-overflow: o;
@@ -55,7 +58,7 @@
   width: 310px;
   letter-spacing: 7px;
   margin-right: 20px;
-  margin-top: 2px;
+  margin-top: 50px;
   margin-bottom: 10px;
   z-index: -1;
   top: 0;
@@ -63,10 +66,10 @@
 }
 .portfolio h2 {
   color: rgb(223, 217, 217);
-  font-size: 45px;
+  font-size: 65px;
   margin-top: 1%;
   margin-bottom: 2%;
-  margin-left: 0px;
+  margin-left: 600px;
   padding-left: 0;
   line-break: 0;
 }
@@ -78,10 +81,10 @@
   color: rgb(223, 217, 217);
   font-weight: bold;
   text-shadow: yellow 0px 0px 10px;
-  margin-top: 2%;
+  margin-top: 5%;
   line-height: 15px;
-  text-align: center;
   font-size: 35px;
+  margin-left: 30px;
 }
 .portfolio .home {
   width: 100%;
@@ -102,26 +105,26 @@
   font-size: 80px;
 }
 .portfolio .about {
-  height: 500vh;
+  height: 200vh;
   width: auto;
   border-bottom: 5px solid white;
 }
 .portfolio .about .me {
-  margin-left: 200px;
+  margin-left: 500px;
   height: 2 30%;
   width: 30%;
   border-radius: 20%;
 }
 .portfolio .about .about-me {
   position: relative;
-  width: 250px;
+  width: 600px;
   margin-top: 50px;
   height: 320px;
-  margin-left: 50px;
+  margin-left: 380px;
   margin-bottom: 30px;
   background-color: whitesmoke;
   padding-left: 8px;
-  font-size: 12px;
+  font-size: 60px;
   padding-top: 3px;
 }
 .portfolio .about .about-me h5 {
@@ -144,7 +147,7 @@
   padding-left: 5px;
   padding-right: 5px;
   color: #191919;
-  height: 200vh;
+  height: 50vh;
 }
 .portfolio .about .skills h3 {
   color: #d2691e;
@@ -158,6 +161,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: auto;
+  margin-left: 0px;
 }
 .portfolio .about .skills .icon div {
   text-align: center;
@@ -175,6 +179,7 @@
 }
 .portfolio .about .skills .skillsExposed {
   width: 100%;
+  padding: 10px;
 }
 .portfolio .about .skills .skillsExposed .exposure {
   color: #d2691e;
@@ -185,11 +190,12 @@
 }
 .portfolio .about .skills .skillsExposed .icon2 {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-direction: row;
   margin-top: 2px;
   width: auto;
+}
+.portfolio .about .skills .skillsExposed .icon2 div {
+  padding: 1px;
 }
 .portfolio .about .skills .skillsExposed .icon2 i {
   font-size: 80px;
@@ -212,16 +218,17 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 20px 60px 0 60px;
-  font-size: 20px;
+  font-size: 30px;
   background-color: white;
   width: auto;
 }
-.portfolio .about .skills .soft-skills .ul {
+.portfolio .about .skills .soft-skills ul {
   color: #191919;
+  margin-top: 10px;
 }
 .portfolio .title {
   margin-bottom: 50px;
-  margin-left: 80px;
+  margin-right: 0px;
 }
 .portfolio .projects {
   height: 330vh;
@@ -232,7 +239,7 @@
 .portfolio .projects .project-container {
   padding-bottom: 2%;
   display: grid;
-  width: 60%;
+  width: 300px;
   margin-left: 30px;
   grid-template-columns: 1fr;
   gap: 120px;
@@ -242,10 +249,9 @@
   border: 2px solid rgb(205, 210, 216);
   box-shadow: rgb(223, 217, 217) 0px 0px 10px;
   border-radius: 10px;
-  width: 20%;
+  width: 90%;
   height: -moz-fit-content;
   height: fit-content;
-  margin-left: 450px;
   padding-bottom: 1px;
 }
 .portfolio .projects .card-body {
@@ -297,7 +303,7 @@
 .portfolio .projects .card-body .info {
   color: #191919;
   padding-top: 20px;
-  height: 65vh;
+  height: 25vh;
   margin-left: 2px;
   margin-right: 2px;
   font-size: 14px;
@@ -306,7 +312,7 @@
 .portfolio .projects .card-body .info2 {
   color: #191919;
   padding-top: 20px;
-  height: 1vh;
+  height: 25vh;
   margin-left: 2px;
   margin-right: 2px;
   width: auto;
@@ -317,7 +323,7 @@
   margin-left: 2px;
   margin-right: 2px;
   width: auto;
-  height: 45vh;
+  height: 25vh;
 }
 .portfolio .projects .card-body .card-link {
   text-decoration: none;
@@ -357,25 +363,28 @@
 }
 .portfolio #contact .contact-header {
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 500px;
 }
 .portfolio #contact .text {
   background-color: white;
   text-align: center;
   display: inline-flex;
   font-weight: bold;
-  margin-left: 420px;
+  margin-left: 450px;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 1%;
+  margin-top: 30px;
   width: 30%;
+  font-size: 30px;
+  line-height: 30px;
 }
 .portfolio #contact .contact-icons-container {
   width: 10%;
   height: 58%;
   display: flex;
   flex-direction: row;
-  margin-left: 40pc;
+  margin-left: 500px;
 }
 .portfolio #contact .contact-icons-container a {
   margin: 60px 30px 10px;
@@ -414,7 +423,10 @@
   color: white;
   width: 100%;
 }
-.portfolio #contact .contact-form .input-fields input::-moz-placeholder, .portfolio #contact .contact-form .input-fields textarea::-moz-placeholder, .portfolio #contact .contact-form .content input::-moz-placeholder, .portfolio #contact .contact-form .content textarea::-moz-placeholder {
+.portfolio #contact .contact-form .input-fields input::-moz-placeholder,
+.portfolio #contact .contact-form .input-fields textarea::-moz-placeholder,
+.portfolio #contact .contact-form .content input::-moz-placeholder,
+.portfolio #contact .contact-form .content textarea::-moz-placeholder {
   color: inherit;
 }
 .portfolio #contact .contact-form .input-fields input::placeholder,
@@ -561,9 +573,11 @@
     width: fit-content;
   }
   .portfolio .about .skills .skillsExposed .icon2 {
-    margin-left: 1%;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-top: 2px;
+    width: auto;
   }
   .portfolio .about .skills .soft-skills {
     position: relative;
@@ -712,4 +726,4 @@
   display: flex;
   flex-direction: row;
   margin-left: 15%;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
