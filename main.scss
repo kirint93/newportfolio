@@ -57,7 +57,7 @@ $Tertiary-color: #191919;
     margin-left: 300px;
   }
   h1 {
-    text-align: center;
+   // text-align: center;
     //   z-index: 2147483647;
     text-overflow: o;
     color: $color;
@@ -112,11 +112,14 @@ $Tertiary-color: #191919;
 
   .home {
     width: 100%;
-    height: 55.6vh;
+    height: 35.6vh;
     padding-bottom: 0px;
     overflow: hidden;
     margin-top: 0;
     border-bottom: 5px solid white;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .intro {
       display: flex;
@@ -243,7 +246,7 @@ $Tertiary-color: #191919;
         .icon2 {
           display: flex;
           flex-direction: row;
-          //  justify-content: space-evenly;
+            justify-content: space-evenly;
           //  flex-wrap: wrap;
           margin-top: 2px;
           width: auto;
@@ -565,7 +568,8 @@ $Tertiary-color: #191919;
   .portfolio {
     height: 410vh;
     width: 100%;
-    // overflow-x: hidden;
+    overflow-x: hidden;
+
 
     scroll-behavior: smooth;
     .firstName {
@@ -574,12 +578,19 @@ $Tertiary-color: #191919;
       font-size: 20px;
       width: 100%;
     }
+
+    h1{
+margin-right: 300px;   
+ }
     h2 {
       margin-left: 110px;
       font-size: 24px;
     }
     h3 {
       margin-right: 50px;
+    }
+    h6{
+     margin-left: 0px;
     }
     nav {
       width: 100%;
@@ -593,8 +604,10 @@ $Tertiary-color: #191919;
       }
     }
     .home {
-      height: 150vh;
-
+      height: 100vh;
+      
+.text-wrapper{
+  margin-left: 200px;
       .second {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -611,9 +624,12 @@ $Tertiary-color: #191919;
       }
       h6 {
         font-size: 16px;
-        margin-right: 30px;
+   margin-left: 0;
+   overflow: hidden;
+        
       }
     }
+  }
 
     .about {
       height: 425vh;
@@ -691,6 +707,7 @@ $Tertiary-color: #191919;
       width: 100%;
       background-size: 100% 100%;
       height: 1000vh;
+      overflow: hidden;
       h2 {
         margin-left: 40px;
       }
@@ -707,8 +724,8 @@ $Tertiary-color: #191919;
 
         .card {
           // margin-bottom: 170px;
-          margin-right: 350px;
-          width: 30%;
+          margin-left: 80px;
+          width: 70%;
 
           .card-body {
             height: 120%;
@@ -752,22 +769,24 @@ $Tertiary-color: #191919;
       height: fit-content;
       margin-top: 20px;
       margin-left: 2px;
+      overflow: hidden;
+ 
 
-      .contact {
-        margin-right: 10px;
+      .contact-header {
+        margin-left:110px;
       }
 
       .text {
         width: 50%;
         font-size: 15px;
-        margin-left: 80px;
+        margin-left: 100px;
         margin-bottom: 1%;
       }
       .contact-icons-container {
         width: 14%;
         height: 1%;
         margin-bottom: 70px;
-        margin-left: 8px;
+        margin-left: 30px;
 
         a {
           margin: 30px 30px 10px;
@@ -776,8 +795,8 @@ $Tertiary-color: #191919;
       }
 
       .contact-form {
-        width: 90%;
-        height: 570px;
+        width: 380px;
+        height:570px;
         margin-top: 6%;
         margin-left: 10px;
         margin-bottom: 2px;
@@ -818,6 +837,11 @@ $Tertiary-color: #191919;
         }
       }
     }
+  }
+  footer{
+   width: 100%;
+   margin-left: 30px;
+
   }
 }
 //}

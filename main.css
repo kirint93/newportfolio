@@ -48,7 +48,6 @@
   margin-left: 300px;
 }
 .portfolio h1 {
-  text-align: center;
   text-overflow: o;
   color: rgb(223, 217, 217);
   display: inline-block;
@@ -88,11 +87,14 @@
 }
 .portfolio .home {
   width: 100%;
-  height: 55.6vh;
+  height: 35.6vh;
   padding-bottom: 0px;
   overflow: hidden;
   margin-top: 0;
   border-bottom: 5px solid white;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .portfolio .home .intro {
   display: flex;
@@ -191,6 +193,7 @@
 .portfolio .about .skills .skillsExposed .icon2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 2px;
   width: auto;
 }
@@ -423,10 +426,7 @@
   color: white;
   width: 100%;
 }
-.portfolio #contact .contact-form .input-fields input::-moz-placeholder,
-.portfolio #contact .contact-form .input-fields textarea::-moz-placeholder,
-.portfolio #contact .contact-form .content input::-moz-placeholder,
-.portfolio #contact .contact-form .content textarea::-moz-placeholder {
+.portfolio #contact .contact-form .input-fields input::-moz-placeholder, .portfolio #contact .contact-form .input-fields textarea::-moz-placeholder, .portfolio #contact .contact-form .content input::-moz-placeholder, .portfolio #contact .contact-form .content textarea::-moz-placeholder {
   color: inherit;
 }
 .portfolio #contact .contact-form .input-fields input::placeholder,
@@ -488,6 +488,7 @@
   .portfolio {
     height: 410vh;
     width: 100%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
   }
   .portfolio .firstName {
@@ -496,12 +497,18 @@
     font-size: 20px;
     width: 100%;
   }
+  .portfolio h1 {
+    margin-right: 300px;
+  }
   .portfolio h2 {
     margin-left: 110px;
     font-size: 24px;
   }
   .portfolio h3 {
     margin-right: 50px;
+  }
+  .portfolio h6 {
+    margin-left: 0px;
   }
   .portfolio nav {
     width: 100%;
@@ -515,24 +522,28 @@
     margin-left: 10px;
   }
   .portfolio .home {
-    height: 150vh;
+    height: 100vh;
   }
-  .portfolio .home .second {
+  .portfolio .home .text-wrapper {
+    margin-left: 200px;
+  }
+  .portfolio .home .text-wrapper .second {
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 7px;
     font-size: 20px;
     width: 100%;
   }
-  .portfolio .home .second h1::first-letter {
+  .portfolio .home .text-wrapper .second h1::first-letter {
     font-size: 21px;
   }
-  .portfolio .home h2 {
+  .portfolio .home .text-wrapper h2 {
     justify-content: center;
   }
-  .portfolio .home h6 {
+  .portfolio .home .text-wrapper h6 {
     font-size: 16px;
-    margin-right: 30px;
+    margin-left: 0;
+    overflow: hidden;
   }
   .portfolio .about {
     height: 425vh;
@@ -602,6 +613,7 @@
     width: 100%;
     background-size: 100% 100%;
     height: 1000vh;
+    overflow: hidden;
   }
   .portfolio .projects h2 {
     margin-left: 40px;
@@ -616,8 +628,8 @@
     justify-content: center;
   }
   .portfolio .projects .project-container .card {
-    margin-right: 350px;
-    width: 30%;
+    margin-left: 80px;
+    width: 70%;
   }
   .portfolio .projects .project-container .card .card-body {
     height: 120%;
@@ -657,28 +669,29 @@
     height: fit-content;
     margin-top: 20px;
     margin-left: 2px;
+    overflow: hidden;
   }
-  .portfolio #contact .contact {
-    margin-right: 10px;
+  .portfolio #contact .contact-header {
+    margin-left: 110px;
   }
   .portfolio #contact .text {
     width: 50%;
     font-size: 15px;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-bottom: 1%;
   }
   .portfolio #contact .contact-icons-container {
     width: 14%;
     height: 1%;
     margin-bottom: 70px;
-    margin-left: 8px;
+    margin-left: 30px;
   }
   .portfolio #contact .contact-icons-container a {
     margin: 30px 30px 10px;
     color: white;
   }
   .portfolio #contact .contact-form {
-    width: 90%;
+    width: 380px;
     height: 570px;
     margin-top: 6%;
     margin-left: 10px;
@@ -716,6 +729,10 @@
     height: 50px;
     font-size: 15px;
   }
+  footer {
+    width: 100%;
+    margin-left: 30px;
+  }
 }
 .me {
   width: 200px;
@@ -726,4 +743,4 @@
   display: flex;
   flex-direction: row;
   margin-left: 15%;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
