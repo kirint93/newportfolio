@@ -12,12 +12,12 @@
 }
 
 .portfolio {
-  height: 620vh;
+  height: 820vh;
   background-color: #191919;
 }
 .portfolio nav {
   width: 100%;
-  height: 11%;
+  height: 12%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -36,39 +36,35 @@
 }
 .portfolio nav a {
   display: flex;
-  margin: 1%;
-  justify-content: flex-end;
+  margin-left: 1px;
   text-decoration: none;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 .portfolio .text-wrapper {
-  margin-left: 300px;
+  margin-left: 30px;
 }
 .portfolio h1 {
-  text-overflow: o;
   color: rgb(223, 217, 217);
   display: inline-block;
   text-shadow: yellow 0px 0px 12px;
   font-weight: 600;
-  font-size: 90px;
-  width: 310px;
+  font-size: 80px;
+  word-wrap: normal;
   letter-spacing: 7px;
-  margin-right: 20px;
+  margin-right: 2px;
   margin-top: 50px;
   margin-bottom: 10px;
-  z-index: -1;
-  top: 0;
-  left: 0;
+  height: 50px;
 }
 .portfolio h2 {
   color: rgb(223, 217, 217);
-  font-size: 65px;
+  font-size: 35px;
   margin-top: 1%;
   margin-bottom: 2%;
-  margin-left: 600px;
+  margin-left: 90px;
   padding-left: 0;
   line-break: 0;
 }
@@ -81,13 +77,13 @@
   font-weight: bold;
   text-shadow: yellow 0px 0px 10px;
   margin-top: 5%;
-  line-height: 15px;
+  line-height: 35px;
   font-size: 35px;
   margin-left: 30px;
 }
 .portfolio .home {
   width: 100%;
-  height: 35.6vh;
+  height: 55.6vh;
   padding-bottom: 0px;
   overflow: hidden;
   margin-top: 0;
@@ -107,8 +103,8 @@
   font-size: 80px;
 }
 .portfolio .about {
-  height: 200vh;
-  width: auto;
+  height: 400vh;
+  width: 100%;
   border-bottom: 5px solid white;
 }
 .portfolio .about .me {
@@ -119,10 +115,10 @@
 }
 .portfolio .about .about-me {
   position: relative;
-  width: 600px;
+  width: 90%;
   margin-top: 50px;
   height: 320px;
-  margin-left: 380px;
+  margin-left: 10px;
   margin-bottom: 30px;
   background-color: whitesmoke;
   padding-left: 8px;
@@ -149,7 +145,7 @@
   padding-left: 5px;
   padding-right: 5px;
   color: #191919;
-  height: 50vh;
+  height: 300vh;
 }
 .portfolio .about .skills h3 {
   color: #d2691e;
@@ -160,8 +156,8 @@
 .portfolio .about .skills .icon {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   width: auto;
   margin-left: 0px;
 }
@@ -183,6 +179,9 @@
   width: 100%;
   padding: 10px;
 }
+.portfolio .about .skills .skillsExposed p {
+  color: white;
+}
 .portfolio .about .skills .skillsExposed .exposure {
   color: #d2691e;
   margin-bottom: 0;
@@ -194,6 +193,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 2px;
   width: auto;
 }
@@ -220,7 +220,7 @@
   color: #191919;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 20px 60px 0 60px;
+  margin: 50px 60px 0 60px;
   font-size: 30px;
   background-color: white;
   width: auto;
@@ -234,15 +234,16 @@
   margin-right: 0px;
 }
 .portfolio .projects {
-  height: 330vh;
+  height: 680vh;
   background-size: 100% 100%;
   padding-top: 2%;
   padding-bottom: 2%;
+  border-bottom: solid 2px white;
 }
 .portfolio .projects .project-container {
   padding-bottom: 2%;
   display: grid;
-  width: 300px;
+  width: 600px;
   margin-left: 30px;
   grid-template-columns: 1fr;
   gap: 120px;
@@ -252,20 +253,20 @@
   border: 2px solid rgb(205, 210, 216);
   box-shadow: rgb(223, 217, 217) 0px 0px 10px;
   border-radius: 10px;
-  width: 90%;
+  width: 70%;
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 1px;
 }
 .portfolio .projects .card-body {
-  width: auto;
-  height: 2%;
+  width: 100%;
+  height: 5%;
   background-color: white;
 }
 .portfolio .projects .card-body .card-title {
   font-size: 23px;
   color: #ff4500;
-  margin-left: 35%;
+  margin-left: 30%;
   font-family: bold;
   font-family: sans-serif;
   text-transform: capitalize;
@@ -285,62 +286,49 @@
   padding-top: 4%;
 }
 .portfolio .projects .card-body .card-description {
-  width: -moz-max-content;
-  width: max-content;
-}
-.portfolio .projects .card-body .card-description,
-.portfolio .projects .card-body .card-description1 {
   font-size: 15px;
   font-weight: bold;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
   line-height: 1;
-  margin-left: 80px;
+  margin-left: 40px;
   color: #191919;
 }
 .portfolio .projects .card-body .card-description1 {
   overflow: hidden;
   margin-left: 10px;
+  text-decoration: underline;
   white-space: nowrap;
   width: 446.7px;
 }
 .portfolio .projects .card-body .info {
   color: #191919;
   padding-top: 20px;
-  height: 25vh;
-  margin-left: 2px;
-  margin-right: 2px;
+  height: 35vh;
+  margin-left: 56px;
   font-size: 14px;
   width: auto;
 }
 .portfolio .projects .card-body .info2 {
   color: #191919;
   padding-top: 20px;
-  height: 25vh;
+  height: 45vh;
   margin-left: 2px;
   margin-right: 2px;
   width: auto;
 }
-.portfolio .projects .card-body .info3456 {
-  color: #191919;
-  padding-top: 20px;
-  margin-left: 2px;
-  margin-right: 2px;
-  width: auto;
-  height: 25vh;
-}
-.portfolio .projects .card-body .card-link {
+.portfolio .projects .card-body .info2 .card-link {
   text-decoration: none;
   border: 2px solid #d2691e;
   border-radius: 6px;
   padding: 5px 3px 3px;
-  background-color: #191919;
-  color: #ffffff;
+  background-color: gray;
+  color: red;
   font-size: 18px;
   width: -moz-fit-content;
   width: fit-content;
   margin-left: 12%;
 }
-.portfolio #scrollButton {
+.portfolio .projects #scrollButton {
   background-color: #d2691e;
   position: fixed;
   left: 20px;
@@ -355,25 +343,25 @@
   border: none;
   z-index: 10;
 }
-.portfolio #scrollButton :active {
+.portfolio .projects #scrollButton :active {
   background: white;
 }
-.portfolio #contact {
+.portfolio .projects #contact {
   border-top: 3px solid white;
   border-width: 100%;
   margin-top: 80px;
   height: 200px;
 }
-.portfolio #contact .contact-header {
+.portfolio .projects #contact .contact-header {
   margin-top: 30px;
   margin-left: 500px;
 }
-.portfolio #contact .text {
-  background-color: white;
+.portfolio .projects #contact .text {
+  color: #f5f5f5;
   text-align: center;
   display: inline-flex;
   font-weight: bold;
-  margin-left: 450px;
+  margin-left: 45px;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 1%;
@@ -382,17 +370,17 @@
   font-size: 30px;
   line-height: 30px;
 }
-.portfolio #contact .contact-icons-container {
+.portfolio .projects #contact .contact-icons-container {
   width: 10%;
   height: 58%;
   display: flex;
   flex-direction: row;
-  margin-left: 500px;
+  margin-left: 50px;
 }
-.portfolio #contact .contact-icons-container a {
+.portfolio .projects #contact .contact-icons-container a {
   margin: 60px 30px 10px;
 }
-.portfolio #contact .contact-form {
+.portfolio .projects #contact .contact-form {
   background-color: grey;
   width: 40%;
   margin-bottom: 1%;
@@ -403,21 +391,21 @@
   display: flex;
   flex-direction: column;
 }
-.portfolio #contact .contact-form .input-fields {
+.portfolio .projects #contact .contact-form .input-fields {
   display: flex;
   flex-direction: column;
   margin-right: 1px;
   width: 100%;
   padding: 20px;
 }
-.portfolio #contact .contact-form .input-fields,
-.portfolio #contact .contact-form .content {
+.portfolio .projects #contact .contact-form .input-fields,
+.portfolio .projects #contact .contact-form .content {
   width: 100%;
 }
-.portfolio #contact .contact-form .input-fields input,
-.portfolio #contact .contact-form .input-fields textarea,
-.portfolio #contact .contact-form .content input,
-.portfolio #contact .contact-form .content textarea {
+.portfolio .projects #contact .contact-form .input-fields input,
+.portfolio .projects #contact .contact-form .input-fields textarea,
+.portfolio .projects #contact .contact-form .content input,
+.portfolio .projects #contact .contact-form .content textarea {
   margin: 10px 0;
   background-color: transparent;
   border: 0;
@@ -426,27 +414,27 @@
   color: white;
   width: 100%;
 }
-.portfolio #contact .contact-form .input-fields input::-moz-placeholder, .portfolio #contact .contact-form .input-fields textarea::-moz-placeholder, .portfolio #contact .contact-form .content input::-moz-placeholder, .portfolio #contact .contact-form .content textarea::-moz-placeholder {
+.portfolio .projects #contact .contact-form .input-fields input::-moz-placeholder, .portfolio .projects #contact .contact-form .input-fields textarea::-moz-placeholder, .portfolio .projects #contact .contact-form .content input::-moz-placeholder, .portfolio .projects #contact .contact-form .content textarea::-moz-placeholder {
   color: inherit;
 }
-.portfolio #contact .contact-form .input-fields input::placeholder,
-.portfolio #contact .contact-form .input-fields textarea::placeholder,
-.portfolio #contact .contact-form .content input::placeholder,
-.portfolio #contact .contact-form .content textarea::placeholder {
+.portfolio .projects #contact .contact-form .input-fields input::placeholder,
+.portfolio .projects #contact .contact-form .input-fields textarea::placeholder,
+.portfolio .projects #contact .contact-form .content input::placeholder,
+.portfolio .projects #contact .contact-form .content textarea::placeholder {
   color: inherit;
 }
-.portfolio #contact .contact-form .input-fields input :required,
-.portfolio #contact .contact-form .input-fields textarea :required,
-.portfolio #contact .contact-form .content input :required,
-.portfolio #contact .contact-form .content textarea :required {
+.portfolio .projects #contact .contact-form .input-fields input :required,
+.portfolio .projects #contact .contact-form .input-fields textarea :required,
+.portfolio .projects #contact .contact-form .content input :required,
+.portfolio .projects #contact .contact-form .content textarea :required {
   border-color: #f5f5f5;
 }
-.portfolio #contact .contact-form .input-fields textarea,
-.portfolio #contact .contact-form .content textarea {
+.portfolio .projects #contact .contact-form .input-fields textarea,
+.portfolio .projects #contact .contact-form .content textarea {
   height: 210px;
 }
-.portfolio #contact .contact-form .input-fields .button,
-.portfolio #contact .contact-form .content .button {
+.portfolio .projects #contact .contact-form .input-fields .button,
+.portfolio .projects #contact .contact-form .content .button {
   width: 50%;
   align-items: center;
   margin-left: 89px;
@@ -456,11 +444,11 @@
   color: #000;
   cursor: pointer;
 }
-.portfolio #contact .contact-form .input-fields .button:hover,
-.portfolio #contact .contact-form .content .button:hover {
+.portfolio .projects #contact .contact-form .input-fields .button:hover,
+.portfolio .projects #contact .contact-form .content .button:hover {
   border: 2px solid rgb(223, 217, 217);
 }
-.portfolio footer {
+.portfolio .projects footer {
   width: 100%;
   height: 50px;
   margin-top: 73%;
@@ -471,7 +459,7 @@
   padding: 0px;
   border: none;
 }
-.portfolio footer p {
+.portfolio .projects footer p {
   height: -moz-fit-content;
   height: fit-content;
   width: -moz-fit-content;
@@ -480,267 +468,18 @@
   left: 0;
   margin-left: 20px;
 }
-.portfolio footer #year {
+.portfolio .projects footer #year {
   color: rgb(223, 217, 217);
 }
 
-@media only screen and (max-width: 736px) {
-  .portfolio {
-    height: 410vh;
-    width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+@media only screen and (min-width: 1200px) {
+  h1 {
+    margin-left: 300px;
   }
-  .portfolio .firstName {
-    margin-top: 100px;
-    line-height: 7px;
-    font-size: 20px;
-    width: 100%;
+  h6 {
+    margin-right: 400px;
   }
-  .portfolio h1 {
-    margin-right: 300px;
+  h2 {
+    margin-left: 550px;
   }
-  .portfolio h2 {
-    margin-left: 110px;
-    font-size: 24px;
-  }
-  .portfolio h3 {
-    margin-right: 50px;
-  }
-  .portfolio h6 {
-    margin-left: 0px;
-  }
-  .portfolio nav {
-    width: 100%;
-    height: 60px;
-  }
-  .portfolio nav img {
-    display: none;
-  }
-  .portfolio nav a {
-    font-size: 12px;
-    margin-left: 10px;
-  }
-  .portfolio .home {
-    height: 100vh;
-  }
-  .portfolio .home .text-wrapper {
-    margin-left: 200px;
-  }
-  .portfolio .home .text-wrapper .second {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 7px;
-    font-size: 20px;
-    width: 100%;
-  }
-  .portfolio .home .text-wrapper .second h1::first-letter {
-    font-size: 21px;
-  }
-  .portfolio .home .text-wrapper h2 {
-    justify-content: center;
-  }
-  .portfolio .home .text-wrapper h6 {
-    font-size: 16px;
-    margin-left: 0;
-    overflow: hidden;
-  }
-  .portfolio .about {
-    height: 425vh;
-  }
-  .portfolio .about .title {
-    margin-top: 20px;
-    margin-left: 100px;
-  }
-  .portfolio .about .me {
-    width: 250px;
-    margin-left: 70px;
-    margin-top: 20px;
-    height: 200px;
-  }
-  .portfolio .about .about-me {
-    width: 350px;
-    margin-left: 20px;
-    font-size: 10px;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-  .portfolio .about .skills {
-    height: 290vh;
-  }
-  .portfolio .about .skills h3 {
-    margin-right: 10px;
-  }
-  .portfolio .about .skills .icon {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin-left: 1px;
-    margin-right: 0;
-    padding-left: 2px;
-  }
-  .portfolio .about .skills .skillsExposed {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .portfolio .about .skills .skillsExposed .icon2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 2px;
-    width: auto;
-  }
-  .portfolio .about .skills .soft-skills {
-    position: relative;
-    font-weight: bold;
-    line-height: 2%;
-    color: green;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 20px 80x 0 20px;
-    font-size: 20px;
-    background-color: rgb(223, 217, 217);
-  }
-  .portfolio .about .skills .soft-skills h3 {
-    padding-top: 1%;
-    color: #d2691e;
-    font-size: 25px;
-  }
-  .portfolio .about .skills .soft-skills h3 .ul {
-    color: #191919;
-  }
-  .portfolio .projects {
-    width: 100%;
-    background-size: 100% 100%;
-    height: 1000vh;
-    overflow: hidden;
-  }
-  .portfolio .projects h2 {
-    margin-left: 40px;
-  }
-  .portfolio .projects .project-container {
-    display: grid;
-    gap: 50px;
-    margin: auto;
-    grid-template-columns: 1fr;
-    width: 50%;
-    padding-bottom: 1%;
-    justify-content: center;
-  }
-  .portfolio .projects .project-container .card {
-    margin-left: 80px;
-    width: 70%;
-  }
-  .portfolio .projects .project-container .card .card-body {
-    height: 120%;
-  }
-  .portfolio .projects .project-container .card .card-body .info {
-    color: #191919;
-    font-size: 15px;
-    padding-top: 20px;
-    height: 650px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .portfolio .projects .project-container .card .card-body .info2 {
-    color: #191919;
-    padding-top: 20px;
-    font-size: 15px;
-    height: 660px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .portfolio .projects .project-container .card .card-body .info3456 {
-    color: #191919;
-    padding-top: 20px;
-    font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 650px;
-  }
-  .portfolio .projects .project-container .card .card-body .card-link,
-  .portfolio .projects .project-container .card .card-body .card-link2 {
-    width: 30px;
-    font-size: 15px;
-    margin-top: 30px;
-  }
-  .portfolio #contact {
-    height: -moz-fit-content;
-    height: fit-content;
-    margin-top: 20px;
-    margin-left: 2px;
-    overflow: hidden;
-  }
-  .portfolio #contact .contact-header {
-    margin-left: 110px;
-  }
-  .portfolio #contact .text {
-    width: 50%;
-    font-size: 15px;
-    margin-left: 100px;
-    margin-bottom: 1%;
-  }
-  .portfolio #contact .contact-icons-container {
-    width: 14%;
-    height: 1%;
-    margin-bottom: 70px;
-    margin-left: 30px;
-  }
-  .portfolio #contact .contact-icons-container a {
-    margin: 30px 30px 10px;
-    color: white;
-  }
-  .portfolio #contact .contact-form {
-    width: 380px;
-    height: 570px;
-    margin-top: 6%;
-    margin-left: 10px;
-    margin-bottom: 2px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-  }
-  .portfolio #contact .contact-form .input-fields {
-    display: flex;
-    flex-direction: column;
-    width: 270px;
-    padding: 20px;
-  }
-  .portfolio #contact .contact-form .input-fields,
-  .portfolio #contact .contact-form .content {
-    width: 100%;
-  }
-  .portfolio #contact .contact-form .input-fields input,
-  .portfolio #contact .contact-form .input-fields textarea,
-  .portfolio #contact .contact-form .content input,
-  .portfolio #contact .contact-form .content textarea {
-    margin: 10px 0;
-    width: 100%;
-  }
-  .portfolio #contact .contact-form .input-fields textarea,
-  .portfolio #contact .contact-form .content textarea {
-    height: 100px;
-  }
-  .portfolio #contact .contact-form .input-fields .button,
-  .portfolio #contact .contact-form .content .button {
-    width: 40%;
-    align-items: center;
-    margin-left: 100px;
-    height: 50px;
-    font-size: 15px;
-  }
-  footer {
-    width: 100%;
-    margin-left: 30px;
-  }
-}
-.me {
-  width: 200px;
-  margin: auto;
-}
-
-.icon {
-  display: flex;
-  flex-direction: row;
-  margin-left: 15%;
 }/*# sourceMappingURL=main.css.map */
